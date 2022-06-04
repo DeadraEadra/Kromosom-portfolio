@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts Linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="/CSS/navfooter.css">
+    <link rel="stylesheet" href="/CSS/basicstyles.css">
+    <link rel="stylesheet" href="/CSS/menu.css">
+
+    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
+    <title>Kromosom - Menu</title>
+</head>
+
+<body>
+
+    <div class="navbar"></div>
+    <a href="/index.html">
+        <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
+    </a>
+
+    <nav>
+        <!--For mobile-->
+        <div class="mobilenav">
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a href="/index.html" class="menuitem">HOME</a>
+                    <a href="/HTML/menu.html" class="menuitem">MENU</a>
+                    <a href="/HTML/events.html" class="menuitem">EVENTS</a>
+                    <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
+                    <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
+                    <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
+                    <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
+                    <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
+                    <div class="langcontainer">
+                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                        <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"></span>
+            <!-- Use any element to open/show the overlay navigation menu -->
+
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
+                width="30" height="25">
+            </span>
+
+        </div>
+    </nav>
+
+    <main>
+        <!--Sun and Moon to choose "cafe" and bar menu-->
+        <div class="sunmoon">
+            <div class="cafebar"><a href="menubar.html"><img class="moon" alt="menuicon" src="/Pictures/moon-01.png"></a></div>
+            <div class="cafebar"><a href="menucafe.html"><img class="sun" alt="menuicon" src="/Pictures/sun_menu-01.png"></a></div>
+        </div>  
+    </main>
+
+    <!--Small script-->
+    <script>
+        // OPENS THE BURGER MENU
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+        // CLOSES THE BURGER MENU
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+    <!-- JS files linking -->
+    <script src="/JavaScript/footer.js"></script>
+
+</body>
+</html>

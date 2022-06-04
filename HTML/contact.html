@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts Linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="/CSS/navfooter.css">
+    <link rel="stylesheet" href="/CSS/basicstyles.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
+
+    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
+    <title>Kromosom - Contact</title>
+</head>
+
+<body>
+
+    <!-- Start of the NAVBAR coding-->
+    <nav>
+        <!--For mobile-->
+        <div class="mobilenav">
+
+            <div class="navbar"></div>
+            <a href="/index.html">
+                <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
+            </a>
+
+            <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a href="/index.html" class="menuitem">HOME</a>
+                    <a href="/HTML/menu.html" class="menuitem">MENU</a>
+                    <a href="/HTML/events.html" class="menuitem">EVENTS</a>
+                    <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
+                    <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
+                    <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
+                    <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
+                    <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
+                    <div class="langcontainer">
+                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                        <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"></span>
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
+                    width="30" height="25">
+            </span>
+
+        </div>
+    </nav>
+
+    <!-- Contact us section -->
+    <div class="contact-us-container">
+        <h1 class="title" style="font-size: 55px;">CONTACT US</h1>
+
+        <!-- Cards -->
+        <div class="cards-container">
+            <div class="card social-media-card">
+                <h2>SOCIAL MEDIA</h2>
+                <div class="social-media-icons">
+                    <a class="card-icon" href="https://www.facebook.com/Kromosom66"><img class="socials_contact-img"
+                        src="/Pictures/fb-icon.png" alt="Facebook icon link">
+                    </a>
+                    <a class="card-icon" href="https://www.instagram.com/kromosom66/"><img class="socials_contact-img"
+                        src="/Pictures/ig-icon.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <div class="card concert-booking-card">
+                <h2>CONCERT BOOKING</h2>
+                <div class="social-media-icons">
+                    <p class="p5">musikbooking66@gmail.com</p>
+                </div>
+            </div>
+            <div class="email-card-about-us">
+                <div class="card direct-email-card">
+                    <h2>DIRECT E-MAIL</h2>
+                    <div class="social-media-icons">
+                        <p class="p5">kromosom66@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OPENING HOURS CONTAINER -->
+    <div class="brain-container">
+        <h1 style="margin-top: 150px;">OPENING HOURS</h1>
+        <div class="day-cards">
+            <div class="day-card">
+                <p class="p4">MONDAY</p>
+                <p class="p3">CLOSED</p>
+            </div>
+
+            <div class="day-card">
+                <p class="p4">TUESDAY</p>
+                <p class="p3">2-10PM</p>
+            </div>
+            <div class="day-card">
+                <p class="p4">WEDNESDAY</p>
+                <p class="p3">2-10PM</p>
+            </div>
+            <div class="day-card">
+                <p class="p4">THURSDAY</p>
+                <p class="p3">2PM-00</p>
+            </div>
+            <div class="day-card">
+                <p class="p4">FRIDAY</p>
+                <p class="p3">2PM-2AM</p>
+            </div>
+            <div class="day-card">
+                <p class="p4">SATURDAY</p>
+                <p class="p3">2PM-2AM</p>
+            </div>
+            <div class="day-card">
+                <p class="p4">SUNDAY</p>
+                <p class="p3">CLOSED</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------- LOCATION CONTAINER -------------  -->
+    <div class="location">
+        <div class="location-text-container">
+            <h1 class="location-header">LOCATION</h1>
+            <h2>ADDRESS</h2>
+            <p class="p4">Nørre Allé 66, 8000 Aarhus</p>
+        </div>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=N%C3%B8rre%20All%C3%A9%2066,%208000%20Aarhus&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footercontainer">
+            <div class="footeritem">
+                <h2 class="footertitle openinghours">OPENING<br>HOURS</h2>
+            </div>
+            <div class="footeritem">
+                <table>
+                    <tr>
+                        <th class="day">Monday</th>
+                        <th>Closed</th>
+                    </tr>
+                    <tbody>
+                        <tr class="hoursrow">
+                            <td class="day">Tuesday</td>
+                            <td>2pm - 10pm</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Wednesday</td>
+                            <td>2pm - 10pm</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Thursday</td>
+                            <td>2pm - 12am</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Friday</td>
+                            <td>2pm - 12am</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Saturday</td>
+                            <td>2pm - 2am</td>
+                        </tr>
+                        <tr class="hoursrow">
+                            <td class="day">Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="footeritem">
+                <h2 class="footertitle">ADDRESS</h2>
+                <p>Nørre Allé 66</p>
+                <p>8000 Aarhus</p>
+            </div>
+            <div class="footeritem">
+                <h2 class="footertitle">SOCIAL MEDIA</h2>
+                <div class="socialscontainer social-media">
+                    <a href="https://www.facebook.com/Kromosom66">
+                        <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
+                        <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+                    </a>
+                    <a href="https://www.instagram.com/kromosom66/">
+                        <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
+                        <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
+                    </a>
+                </div>
+            </div>
+            <div class="footeritem">
+                <p class="smallmessage">
+                    CAN'T >
+                    <br>
+                    WAIT TO SEE YOU
+                </p>
+            </div>
+            <div class="footeritem footerlogo">
+            </div>
+            <div class="footeritem footercopyright">
+                <p class="copyright">© 2022 KROMOSOM. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // OPENS THE BURGER MENU
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+        // CLOSES THE BURGER MENU
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+    <!-- JS files linking -->
+    <script src="/JavaScript/footer.js"></script>
+
+</body>
+</html>
