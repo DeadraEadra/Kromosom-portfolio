@@ -1,0 +1,43 @@
+/* Mobile view  */
+@media only screen and (max-width: 899px) {
+    .onclick-aboutus{
+        display: none;
+    }
+    
+    .error{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+/* PC view  */
+@media only screen and (min-width: 900px) {
+
+    .error{
+        display:none;
+    }
+    
+    .heading-aboutus {
+        background-image: url(/Pictures/about-us2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1250vh;
+    }
+    
+    .onclick-aboutus {
+        background-image: url(/Pictures/onclick-about-us.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .onclick-aboutus-button {
+        margin-top: 33rem;
+        margin-left: 44rem;
+        width: 250px;
+        height: 30%;
+        background: transparent;
+        border-style: none;
+        cursor: pointer;
+    }
+}

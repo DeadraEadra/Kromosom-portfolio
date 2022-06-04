@@ -1,0 +1,169 @@
+								/*------- BEGINNING OF CSS RESET ------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #f4e7bf;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+										/*------- END OF CSS RESET ------*/
+
+
+										/*------- INSERTING FONTS ------*/
+@font-face {
+    font-family: 'PhosphateInline';
+    src: url(./Font/PhosphateInline.ttf);
+ }
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url(./Font/SpaceGrotesk-VariableFont_wght.ttf);
+ }
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url(./Font/SpaceGrotesk-VariableFont_wght.ttf);
+ }
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+/* HTML scroll behavior to smooth */
+html {
+	scroll-behavior: smooth;
+}
+
+              	                   /*------- TEXT FORMATTING ------*/
+/* KROMOSOM HEADINGS */
+h1 {
+	font-family: 'PhosphateInline';
+	font-size: 70px;
+	color: #FD910A;
+}
+
+/* SUBHEADINGS (MENU AND ABOUT US CARDS) */
+h2{
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #FD910A;
+	overflow: hidden;
+}
+
+/* ABOUT US TEXT */
+.p1{
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #F4E7BF;
+	overflow: hidden;
+}
+
+/* BURGER MENU SECTIONS (in the burger css) */
+
+/* MENU ITEM NAMES */
+.p3{
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #1F1F1F;
+	overflow: hidden;
+}
+
+/* MENU PRICES */
+.p4{
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #1F1F1F;
+	overflow: hidden;
+}
+
+/* READ MORE */
+.p5{
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #F4E7BF;
+	overflow: hidden;
+}
+
+
+                	                   /*------- BODY FORMATTING ------*/
+main{
+	z-index: -8;
+	min-height: 65vh;
+}
+
+.title{
+	padding-top: 120px;
+	padding-bottom: 50px;
+	text-align: center;
+	z-index:-7;
+}
+
+p{
+	line-height: 22px;
+}
+
+/* ------- SCROLL BAR -------*/
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #1F1F1F;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background-image: url("/Pictures/scrollbar.jpg");
+	background-size: contain;
+	background-repeat: repeat;
+}

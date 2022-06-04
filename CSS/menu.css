@@ -1,0 +1,403 @@
+html {
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.cafebar {
+    width: 200px;
+    height: auto;
+}
+
+.sun:hover {
+    transform: scale(1.5);
+}
+
+.sunmoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#cafe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bar {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th {
+    margin-bottom: 15px;
+}
+
+td {
+    gap: 10pc;
+}
+
+.day-card {
+    border: 2px solid #1F1F1F;
+    background-color: #f4e7bf;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 30px;
+    box-shadow: 5px 5px#fd910a;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.night-card {
+    border: 2px solid #f4e7bf;
+    background-color: #1F1F1F;
+    color: #f4e7bf;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 30px;
+    box-shadow: 5px 5px#f4e7bf;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.product {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.menucard {
+    padding-bottom: 30px;
+}
+
+
+/*THis special offers*/
+.specialperson {
+    margin-top: 120px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    margin-left: 25rem;
+}
+
+.specbar {
+    color: #f4e7bf;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.special-offers {
+    padding-top: 0px;
+}
+
+.coffeecard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #f4e7bf;
+    border-radius: 30px;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    justify-content: left;
+    padding: 30px 50px;
+    transition: 0.3s;
+}
+
+.coffeecard:hover {
+    transform: scale(1.05);
+}
+
+.coffecard-bar {
+    background-color: #1F1F1F;
+    color: #f4e7bf;
+    border: 2px solid #f4e7bf;
+    border-style: solid;
+}
+
+.cardimage {
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cardimage-bar {
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid #707070;
+}
+
+.cardtext {
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.price-card {
+    font-weight: lighter;
+    padding-left: 120px;
+    margin-top: -24px;
+    font-size: 25px;
+}
+/*placing of sun and moon nav items*/
+
+
+/*placing the sun and moon icons on top of the menu*/
+/*Background for 1st*/
+@media screen and (min-width:900px) {
+    .sunmoon {
+        background-image: url("/Pictures/menu1-01.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cafe {
+        background-image: url("/Pictures/menu1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bar {
+        background-image: url("/Pictures/menu2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .moon {
+        display: block;
+        padding-top: 150px;
+        width: 200px;
+        margin-left: -20px;
+        transition: transform .2s;
+        /* Animation */
+    }
+    
+    .moon:hover {
+        transform: scale(1.5);
+    }
+    
+    .sun {
+        display: block;
+        left: auto;
+        right: auto;
+        width: 200px;
+        margin-left: -100px;
+        transition: transform .2s;
+        /* Animation */
+    }
+
+}
+
+/*Background for mobile*/
+@media screen and (max-width:800px) {
+
+    .sunlogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        width:60px;
+        height:auto;
+    }
+
+    .moonicon {
+        display: block;
+    }
+
+    .specialperson {
+        display: none;
+    }
+
+    .special-offers {
+        margin-top: 125px;
+        font-size: 60px;
+    }
+
+    .coffeecard {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .moonicon {
+        display: block;
+        margin-left: 5%;
+        padding-top: 80px;
+        width:60px;
+        height:auto;
+        transition: transform .2s;
+        transform: scaleX(-1);
+        /* Animation */
+    }
+
+    .moonicon:hover {
+        transform: scale(1.5);
+        transform: scaleX(-1);
+    }
+
+    .sunmoon {
+        background-image: url("/Pictures/mobile/menu1_mobile.png");
+        background-repeat: repeat-y;
+        background-size: cover;
+    }
+    .cafe {
+        background-image: url("/Pictures/mobile/menu2_mobile.png");
+        background-repeat: repeat-y;
+        background-size: cover;
+    }
+
+    .bar {
+        background-image: url("/Pictures/mobile/menu3_mobile.png");
+        background-repeat: repeat-y;
+        background-size: cover;
+    }
+
+    .cafebar{
+        width: 100px;
+    }
+
+    .night-card {
+        width: 80%;
+    }
+
+    .day-card {
+        width: 80%;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    .sun{
+        height: 100px;
+        width: auto;
+        display: block;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .moon{
+        height: 100px;
+        width: auto;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sunmoon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        min-height: 100vh;
+    }
+
+    .p4{
+        color:#1F1F1F;
+    }
+    .specbar{
+        color:#f4e7bf;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+    /*move some titles to right so that it becomes readable*/
+    #hotdrinks{
+        text-align: right;
+    }
+
+    .fadol{
+        text-align: right;
+    }
+}
+
+/*for pc*/
+@media screen and (min-width:900px) {
+    #cafe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        max-width: 60%;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+
+    #bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        max-width: 60%;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+
+    .sunlogo {
+        display: block;
+        margin-left: 55%;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+
+    .shots {
+        margin-left: 70px;
+        padding-left: 0;
+    }
+
+    .moonicon {
+        display: block;
+        margin-left: 80px;
+        padding-top: 80px;
+        transition: transform .2s;
+        /* Animation */
+    }
+
+    .moonicon:hover {
+        transform: scale(1.5);
+    }
+
+    .coffeecard {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,371 @@
+ /*nav bar styling*/
+ /*------- MOBILE NAVIGATION ------*/
+.navbar {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.toplogo {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    margin-left: 49%;
+    margin-right: auto;
+    width: 30px;
+    height: auto;
+    padding-top: 10px;
+    z-index: 10;
+}
+
+ /*navigation menu opened*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-image: url("/Pictures/menu_pc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    transition: 0.5s;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    background: none;
+}
+
+.overlay a {
+    text-decoration: none;
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+    color: #f4e7bf;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #fd910a;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 60px;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 25px;
+    font-size: 45px;
+    background: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.menuitem {
+    margin: 2% 0;
+}
+
+.navigation__container {
+    background-color: #fd910a;
+    position: sticky;
+    top: 0;
+}
+
+.mobileiconlabel {
+    display: inline-block;
+    color: #f4e7bf;
+    background: #fd910a;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.menuitem {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #1f1f1f;
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+ /*Hide checkbox and menuitems until clicked*/
+.menuitems__container,
+.mobileicon {
+    display: none;
+}
+
+ /*Show menuitems when mobileicon-label is clicked*/
+.navigation__container input:checked~.menuitems__container {
+    display: block;
+    padding-bottom: 100%;
+    background: #f4e7bf;
+}
+
+#logomenu {
+    display: inline-block;
+    align-items: center;
+    padding-left: 20px;
+    background: #f4e7bf;
+    width: 5em;
+    height: auto;
+}
+
+.lines {
+    display: inline-block;
+    left: 10px;
+    background: none;
+    z-index: 4;
+}
+
+form {
+    display: inline-block;
+    color: #1f1f1f;
+    text-align: center;
+}
+
+.input {
+    position: relative;
+    opacity: 100%;
+    z-index: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #1f1f1f;
+    background-color: #f4e7bf;
+    position: fixed;
+    top: 0;
+}
+
+ /*Styling the button for language change*/
+.languagebutton {
+    border: 2px solid #fd910a;
+    background: #1f1f1f;
+    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fd910a;
+    width: 75px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.languagebutton:active {
+    background: #fd910a;
+    color: #1f1f1f;
+}
+
+.en {
+    background: #fd910a;
+    color: #1f1f1f;
+}
+
+.langcontainer {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.langlogo {
+    width: 45px;
+    height: auto;
+    color:#f4e7bf;
+    margin-left: 25px;
+}
+
+.langchangetext {
+    font-family: 'Space Grotesk', sans-serif;
+	font-size: 12px;
+	color: #F4E7BF;
+}
+
+                        /*------------------FOOTER---------------------*/
+.footercontainer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    color: #f4e7bf;
+    background-color: #1f1f1f;
+}
+
+ /*footer opening hours table*/
+table {
+    min-width: 260px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.day {
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.footertitle {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #f4e7bf;
+}
+
+ /*the social icoons*/
+
+.socialscontainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    transition: 1s;
+}
+
+.socials_image {
+    width: 60px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.openinghours {
+    text-align: center;
+}
+
+
+ /*------------------MEDIA QUERIES---------------------*/
+
+ /*Web view*/
+@media screen and (min-width:900px) {
+
+    /*navigation*/
+    .menuitem {
+        width: 100%;
+    }
+
+    .overlay {
+        width: 300px;
+    }
+
+    .overlay-content {
+        width: 100%;
+    }
+
+    /*footer*/
+
+    .openinghours {
+        text-align: right;
+    }
+
+    .footercontainer {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    .footerlogo {
+        content: url("/Pictures/beige_person.png"); 
+        transform: scaleX(-1);
+        margin-left: 40px;
+        z-index: 1;
+        width: 20px;
+        margin-bottom: -80px;
+    }
+
+    .footeritem {
+        min-width: 190px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .smallmessage {
+        max-width: 150px;
+        margin-top: 60px;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .copyright {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+        margin-right: 55px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .footercontainer {
+        flex-wrap: wrap;
+    }
+
+    .copyright {
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+ /*Phone view*/
+@media screen and (max-width:899px) {
+
+    /*footer*/
+
+    .smallmessage {
+        display: none;
+    }
+
+    .footeritem {
+        min-width: 300px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        margin-top: -40px;
+    }
+}
