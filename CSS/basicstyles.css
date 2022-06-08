@@ -52,16 +52,16 @@ q:before, q:after {
 										/*------- INSERTING FONTS ------*/
 @font-face {
     font-family: 'PhosphateInline';
-    src: url(./Font/PhosphateInline.ttf);
+    src: url(/Font/PhosphateInline.ttf);
  }
 @font-face {
-    font-family: 'SpaceGrotesk';
-    src: url(./Font/SpaceGrotesk-VariableFont_wght.ttf);
+    font-family: 'Space Grotesk';
+    src: url(/Font/SpaceGrotesk-VariableFont_wght.ttf);
  }
 
 @font-face {
-    font-family: 'SpaceGrotesk';
-    src: url(./Font/SpaceGrotesk-VariableFont_wght.ttf);
+    font-family: 'Space Grotesk';
+    src: url(/Font/SpaceGrotesk-VariableFont_wght.ttf);
  }
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
