@@ -17,10 +17,11 @@ body {
 
 .maintitle {
     position: relative;
-    display:block;
-    margin-top: 650px;
     text-align: center;
+    height: 100vh;
+    top: 80vh;
 }
+
 
 .title-special-offers {
     margin-left: auto;
@@ -157,10 +158,11 @@ body {
 
     .maintitle {
         position: relative;
-        display:block;
-        margin-top: 600px;
         text-align: center;
+        height: 100vh;
+        top: 80vh;
     }
+    
 
     .title-special-offers {
         margin-top: 150px;

@@ -1,6 +1,6 @@
 .title{
-    padding-top:120px;
-    padding-left: 200px;
+    padding-top: 300px;
+    padding-left: 300px;
 }
 
 .facebookmention {
@@ -67,7 +67,7 @@ body{
 @media screen and (max-width:900px) {
 
     .title{
-        padding-top:0px;
+        padding-top:200px;
         padding-left: 100px;
     }
 
