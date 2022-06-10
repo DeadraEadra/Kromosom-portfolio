@@ -1,7 +1,7 @@
 /*THe main image and title*/
 
 body {
-    background-image: url("/Pictures/mainpage_pc.png");
+    background-image: url("/Pictures/mainpage_pc_compressed.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

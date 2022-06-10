@@ -30,8 +30,8 @@
 <body>
 
   <!-- Animation -->
-  <div id="loader"></div>
-  <div id="content">
+  <!-- <div id="loader"></div>
+  <div id="content"> -->
 
     <div class="navbar">
       <a href="index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png" /></a>
@@ -231,7 +231,7 @@
       </div>
     </footer>
     <!-- End of the FOOTER coding -->
-  </div>
+  <!-- </div> -->
   <!-- End of animation tag -->
 
   <script>
@@ -246,28 +246,27 @@
     }
 
     // GIF ANIMATION
-    var loader;
-    function loadNow(opacity) {
-    if (opacity <= 0) {
-      displayContent(); // if the opacity is lower than 0 then show the content
-    } else {
-      loader.style.opacity = opacity;
-      window.setTimeout(function() {
-      loadNow(opacity - 1); //decrease the opacity of the loader 100% after 6 second cycle, 
-      }, 6000); // after the web site’s content is available
-    }
-    }
+    // var loader;
+    // function loadNow(opacity) {
+    // if (opacity <= 0) {
+    //   displayContent(); // if the opacity is lower than 0 then show the content
+    // } else {
+    //   loader.style.opacity = opacity;
+    //   window.setTimeout(function() {
+    //   loadNow(opacity - 1); //decrease the opacity of the loader 100% after 6 second cycle, 
+    //   }, 6000); // after the web site’s content is available
+    // }
+    // }
 
-    function displayContent() {
-      loader.style.display = 'none'; // hide the GIF after those 6 seconds
-      document.getElementById('content').style.display = 'block'; //display the page after GIF ended
-    }
+    // function displayContent() {
+    //   loader.style.display = 'none'; // hide the GIF after those 6 seconds
+    //   document.getElementById('content').style.display = 'block'; //display the page after GIF ended
+    // }
 
-    document.addEventListener("DOMContentLoaded", function() {
-      loader = document.getElementById('loader'); // get the GIF
-      loadNow(1); //load it just one time
-    });
-
+    // document.addEventListener("DOMContentLoaded", function() {
+    //   loader = document.getElementById('loader'); // get the GIF
+    //   loadNow(1); //load it just one time
+    // });
   </script>
 
   <!-- Footer JS file linking -->
