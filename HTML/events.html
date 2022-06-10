@@ -59,7 +59,7 @@
             <span onclick="openNav()"></span>
             <!-- Use any element to open/show the overlay navigation menu -->
             <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
-                width="30" height="25">
+                    width="30" height="25">
             </span>
 
         </div>
@@ -69,16 +69,26 @@
     <div class="eventstitle">
         <h1 class="title bigtitle">EVENTS</h1>
 
-        <!-- Special person with text  -->
+        <!--Special person with text-->
         <div class="facebookmention">
             <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40">
             <p class="check">CHECK OUR<BR>FACEBOOK<BR>FOR MORE!</p>
         </div>
     </div>
 
-    <div class="eventcontainer">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v14.0"
+        nonce="kFzk0HxS"></script>
+
+    <div class="fb-page" data-href="https://www.facebook.com/Kromosom66" data-tabs="events" data-width="" data-height=""
+        data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/Kromosom66" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/Kromosom66">Kromosom</a></blockquote>
+    </div>
+
+    <!--<div class="eventcontainer">
         <!--First arrow-->
-        <div class="eventitem">
+    <!--<div class="eventitem">
             <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left"
                 aria-hidden="true"><img class="arrow" src="/Pictures/arrowleft.png" alt="Arrow left"></i>
             </span>
@@ -100,7 +110,7 @@
         </div>
 
         <!--Controlling arrows-->
-        <div class="eventitem">
+    <!--<div class="eventitem">
             <span class=" controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right"
                     aria-hidden="true"><img class="arrow" src="/Pictures/arrowright.png" alt="Arrow right"></i>
             </span>
@@ -108,14 +118,14 @@
     </div>
 
     <!--the dots that show how many events are there, but we dont want them-->
-    <div id="dots-con">
+    <!--<div id="dots-con">
         <span class="dot" onclick="nextSlide(1)"></span>
         <span class="dot" onclick="nextSlide(1)"></span>
         <span class="dot" onclick="nextSlide(1)"></span>
     </div>
 
     <!--Short description of the event-->
-    <div class="eventdescription">
+    <!--<div class="eventdescription">
         <h2>BÆNCH CONCERT</h2>
         <p><br><br>
             BÆNCH is a new and upcoming Rock Band from Horsens with roots in the psychedelic and progressive 
@@ -126,7 +136,7 @@
         </p>
         <br><br><h2>Entrance:</h2>
         <p class="price-card">35 Kr.</p>
-    </div>
+    </div>-->
 
     <!--The Footer-->
     <footer>
@@ -183,11 +193,13 @@
                 <div class="socialscontainer social-media">
                     <a href="https://www.facebook.com/Kromosom66">
                         <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
-                        <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+                        <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow"
+                            src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
                     </a>
                     <a href="https://www.instagram.com/kromosom66/">
                         <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
-                        <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
+                        <img style="display: none;" class="socials_image" id="ig-icon-rainbow"
+                            src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
                     </a>
                 </div>
             </div>
@@ -222,4 +234,5 @@
     <script src="/JavaScript/footer.js"></script>
 
 </body>
+
 </html>

@@ -3,7 +3,7 @@
 body {
     background-image: url("/Pictures/mainpage_pc_compressed.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 101%;
 }
 
 /* GIF */
@@ -94,7 +94,7 @@ body {
 }
 
 .whoarewe {
-    margin-top: 400px;
+    margin-top: 40px;
 }
 
 .rmaboutus {
@@ -109,6 +109,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.title{
+    padding-top: 40px;
 }
 
 /* Mobile view */
@@ -176,7 +180,7 @@ body {
         border-radius: 30px;
     }
     .whoarewe {
-        margin-top: 130px;
+        margin-top: 40px;
     }
 
     .kromosom {
@@ -196,6 +200,7 @@ body {
         font-size: 44px;
         padding-bottom: 5px;
         text-align: center;
+        padding-top: 0px;
     }
 
     .card {
@@ -210,5 +215,9 @@ body {
 
     .specialperson {
         display: none;
+    }
+
+    .h2{
+        font-size: 23px;
     }
 }

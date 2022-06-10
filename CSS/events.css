@@ -228,3 +228,12 @@ body {
         width: 100%;
     }  
 }
+
+.fb-page{
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 40px;
+    width: 30%;
+
+}
