@@ -46,7 +46,7 @@ html {
 
 th {
     margin-bottom: 15px;
-}
+}night-cardsunlogo
 
 td {
     gap: 10pc;
@@ -182,7 +182,13 @@ td {
 /*Background for 1st*/
 @media screen and (min-width:900px) {
     .cafe {
-        background-image: url("/Pictures/men.png");
+        background-color: #f4e7bf;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bar {
+        background-color: #1F1F1F;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -213,7 +219,20 @@ td {
 }
 
 /*Background for mobile*/
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
+
+    .cafe {
+        background-color: #f4e7bf;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bar {
+        background-color: #1F1F1F;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 
     .sunlogo {
         display: block;
@@ -241,6 +260,7 @@ td {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+      
     }
 
     .moonicon {
@@ -260,22 +280,11 @@ td {
     }
 
     .sunmoon {
-        background-image: url("/Pictures/mobile/menu1_mobile.png");
+        background-image: none;
         background-repeat: repeat-y;
         background-size: cover;
     }
-    .cafe {
-        background-image: url("/Pictures/mobile/menu2_mobile.png");
-        background-repeat: repeat-y;
-        background-size: cover;
-    }
-
-    .bar {
-        background-image: url("/Pictures/mobile/menu3_mobile.png");
-        background-repeat: repeat-y;
-        background-size: cover;
-    }
-
+ 
     .cafebar{
         width: 100px;
     }
@@ -346,11 +355,23 @@ td {
         display: none;
     }
 
+    .partymode{
+        display: none;
+    }
+
 }
 
 /*for pc*/
 @media screen and (min-width:900px) {
+
+    .bar {
+        background-color: #1F1F1F;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     #cafe {
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -364,13 +385,14 @@ td {
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: baseline;
-        max-width: 70%;
+        max-width: 60%;
         margin-right: auto;
+        
     }
 
     .sunlogo {
-        display: block;
-        margin-left: 55%;
+        display: flex;
+        margin-left: auto;
         margin-right: auto;
     }
 
@@ -389,8 +411,7 @@ td {
 
     .coffeecard {
         width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 
     .specialscontainer{
@@ -408,5 +429,22 @@ td {
         justify-content: left;
         align-items: center;
         gap: 20px;
+    }
+
+    .partymode{
+        display: flex;
+        justify-content:flex-start;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+        gap: 20px;
+
+    }
+
+    table{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
