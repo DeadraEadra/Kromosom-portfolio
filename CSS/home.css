@@ -4,6 +4,7 @@ body {
     background-image: url("/Pictures/mainpage_pc_compressed.png");
     background-repeat: no-repeat;
     background-size: 101%;
+    background-position-x: center;
 }
 
 /* GIF */
@@ -18,10 +19,13 @@ body {
 .maintitle {
     position: relative;
     text-align: center;
-    height: 100vh;
+    height: 15vh;
     top: 80vh;
 }
 
+.whoarewe-section {
+    margin-top: 90vh;
+}
 
 .title-special-offers {
     margin-left: auto;
@@ -39,7 +43,7 @@ body {
 }
 
 .galleryimagep {
-    width: 30%;
+    width: 40%;
 }
 
 /*THe lorem ipsum cards*/
@@ -74,11 +78,15 @@ body {
 /*The gallery picture and link*/
 .gallerylink {
     display: block;
-    width: 30%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     text-align: right;
     text-decoration: none;
+}
+
+.galleryimagep {
+    margin-bottom: 5px;
 }
 
 .galleryimagep, .card, .cardz {
@@ -98,9 +106,14 @@ body {
 }
 
 .rmaboutus {
-    margin-top: -20px;
+    margin-top: -17px;
     text-align: right;
     margin-left: 200px;
+}
+
+/* Special offers section */
+.specialoffers-section {
+    margin-top: 60vh;
 }
 
 .specialperson {
@@ -113,6 +126,13 @@ body {
 
 .title{
     padding-top: 40px;
+}
+
+.cardz {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /* Mobile view */
@@ -165,7 +185,6 @@ body {
         height: 100vh;
         top: 80vh;
     }
-    
 
     .title-special-offers {
         margin-top: 150px;
