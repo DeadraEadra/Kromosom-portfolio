@@ -39,7 +39,7 @@ body {
 }
 
 .galleryimagep {
-    width: 40%;
+    width: 30%;
 }
 
 /*THe lorem ipsum cards*/
@@ -74,34 +74,33 @@ body {
 /*The gallery picture and link*/
 .gallerylink {
     display: block;
-    width: 40%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     text-align: right;
     text-decoration: none;
 }
 
-.gallerylinkcontainer, .card, .cardz {
+.galleryimagep, .card, .cardz {
     transition: 0.3s;
 }
 
-.gallerylinkcontainer:hover, .card:hover, .cardz:hover {
+.galleryimagep:hover, .card:hover, .cardz:hover {
     transform: scale(1.05);
 }
 
 .denduer {
     font-size: 35px;
-    
 }
 
 .whoarewe {
-    margin-top: 350px;
+    margin-top: 400px;
 }
 
 .rmaboutus {
     margin-top: -20px;
     text-align: right;
-    margin-left: 180px;
+    margin-left: 200px;
 }
 
 .specialperson {
