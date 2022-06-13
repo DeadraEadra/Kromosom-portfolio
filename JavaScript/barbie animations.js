@@ -1,0 +1,1 @@
+const barbies = document.getElementById("barbies");

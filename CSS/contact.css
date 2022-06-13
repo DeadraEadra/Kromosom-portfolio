@@ -118,6 +118,30 @@ body {
 }
 
 
+/* Barbies easter egg */
+
+.barbies-div {
+    position: relative;
+}
+
+.barbies {
+    height: 350px;
+    width: auto;
+    transform: rotate(30deg);
+    position: absolute;
+    left: -40px;
+    bottom: -245px;
+    z-index: -1;
+}
+
+.barbies:hover {
+    left: 100px;
+    bottom: 245px;
+}
+
+/* Barbies easter egg */
+
+
 /*------------------MEDIA QUERIES---------------------*/
 
 /*----- DESKTOP -----*/
@@ -184,8 +208,10 @@ body {
 
     /* ------------ LOCATION CONTAINER ----------- */
     .location {
+        position: relative;
         margin-top: 15vh;
         padding-bottom: 50px;
+        z-index: -2;
     }
 
     .location-header {
@@ -193,7 +219,7 @@ body {
     }
 
     .location-text-container {
-        padding-bottom: 2vh;
+        padding-bottom: 6vh;
     }
 
     /* ---- MAP ---- */
@@ -203,11 +229,47 @@ body {
         height: auto;
         width: 70%;
         overflow: hidden;
+        background-color: #55CCD3;
+        box-shadow: #55CCD3 0px 0px 0px 3px, #009481 0px 0px 0px 6px, #F8A7AC 0px 0px 0px 9px, #EC5563 0px 0px 0px 12px, #FD910A 0px 0px 0px 15px, #000000 0px 0px 30px 0px;
     }
 
     .gmap_canvas {
         overflow: hidden;
         background: none !important;
         width: 100%;
+
     }
+
+
+
+    /* Barbies easter egg */
+
+    .barbies-div {
+        position: relative;
+        bottom: 10px;
+        overflow: visible;
+
+    }
+
+    .barbies {
+        height: 350px;
+        width: auto;
+        transform: rotate(30deg);
+        position: absolute;
+        left: -40px;
+        bottom: -245px;
+        z-index: 1;
+    }
+
+    /* .barbies:hover {
+        left: 100px;
+        bottom: 245px;
+    } */
+
+    /* make the barbies hide behing the footer */
+    .footercontainer {
+        position: relative;
+        z-index: 10;
+    }
+    /* Barbies easter egg */
 }
