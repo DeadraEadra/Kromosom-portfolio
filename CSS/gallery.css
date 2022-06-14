@@ -1,5 +1,5 @@
 .title{
-    padding-top: 300px;
+    padding-top: 350px;
     padding-left: 300px;
 }
 
@@ -20,7 +20,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -43,9 +43,14 @@
 }
 
 .w3-animate-zoom {
-    margin-top: 150px;
-    width: 45%
+    /* margin-top: 150px; */
+    margin-top: 5%;
+    width: 35%
 }
+
+/* .horizontal-frame {
+    width: 20%;
+} */
 
 .jaj {
     padding-top: 300px;
@@ -58,8 +63,39 @@
 body{
     background-image: url("/Pictures/gallery_pc.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    /* background-size: cover; */
 }
+
+.igmessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.igitem{
+    text-align:left;
+    font-weight: bold;
+}
+
+.logolittle{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.w3-modal{
+    padding-top: 0px;
+    height: 100vh;
+}
+
+#img01{
+    height: 100%;
+    /* min-height: 70vh; */
+}
+
 
                         /* ---------- MEDIA QUERIES ---------- */
 
@@ -114,46 +150,14 @@ body{
     }
 
     .w3-animate-zoom{
-        margin-top: 5%;
-        margin-bottom: 3%;
+        margin-top: 20%;
+        /* margin-bottom: 50%; */
         height: auto;
-        width: 80%;
+        width: 50%;
+    }
+
+    #img01{
+        height: 100%;
     }
 }
                         /* ---------- END of MEDIA QUERIES ---------- */
-
-.igmessage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
-    gap: 20px;
-}
-
-.igitem{
-    text-align:left;
-    font-weight: bold;
-}
-
-.logolittle{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-.w3-modal{
-    padding-top: 0px;
-    height: 100vh;
-}
-
-#img01{
-    height: 100%;
-    min-height: 70vh;
-}
-
-.w3-animate-zoom{
-    margin-top: 5%;
-    margin-bottom: 3%;
-    width: 50%;
-   
-}
