@@ -1,3 +1,4 @@
+// Play sound when mouseover and mouselfeave the barbie image
 var playBtn = document.getElementById('play'),
   resetBtn = document.getElementById('reset'),
   hearbeat = document.getElementById('heartbeat')
