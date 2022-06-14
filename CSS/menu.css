@@ -38,9 +38,9 @@ html {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 10%;
 
 }
 
@@ -137,8 +137,7 @@ td {
 
 .cardimage {
     margin-top: 15px;
-    border-radius: 20px;
-    height: 50%;
+    border-radius: 20px; 
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -146,7 +145,6 @@ td {
 .cardimage-bar {
     margin-top: 15px;
     border-radius: 20px;
-    height: 50%;
     margin-left: 15px;
     margin-right: 15px;
     border: 2px solid #707070;
@@ -257,11 +255,11 @@ td {
     }
 
     .coffeecard {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 80%;
+        padding: 10px 10px 30px 10px;
       
     }
+
 
     .moonicon {
         display: block;
@@ -290,15 +288,17 @@ td {
     }
 
     .night-card {
-        width: 80%;
+        width: 90%;
     }
 
     .day-card {
-        width: 80%;
+        width: 90%;
     }
 
     table {
-        width: 80%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .sun{
@@ -340,10 +340,13 @@ td {
     /*move some titles to right so that it becomes readable*/
     #hotdrinks{
         text-align: right;
+        margin-right: 20px;
     }
 
     .fadol{
         text-align: right;
+        width: 100%;
+        
     }
 
     .specialscontainer{
@@ -418,8 +421,8 @@ td {
         display: flex;
         flex-direction: row;        
         gap: 5vw;
-        justify-content: flex-start;
-        margin-left: 15%;
+        justify-content: center;
+        margin-left: -15%;
         margin-top: 2vh;
         margin-bottom: 2vh;
     }
@@ -427,13 +430,14 @@ td {
     .specialperson {
         display: flex;
         justify-content: left;
-        align-items: center;
+        align-items:flex-start;
         gap: 20px;
     }
 
     .partymode{
         display: flex;
         justify-content:flex-start;
+        margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 100px;

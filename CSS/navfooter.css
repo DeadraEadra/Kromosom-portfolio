@@ -328,6 +328,16 @@ td, th {
         margin-top: 50px;
     }
 
+    .footerlogo {
+        content: url("/Pictures/beige_person.png"); 
+        margin-left: 40px;
+        z-index: 1;
+        margin-bottom: 0px;
+        height: 50px;
+        width: auto;
+        margin-top: 20px;
+    }
+
     .smallmessage {
         max-width: 150px;
         margin-top: 20px;
@@ -346,6 +356,11 @@ td, th {
         margin: auto;
         margin-right: 55px;
         padding-top: 30px;
+    }
+
+    .cantwait{
+        display: flex;
+        gap: 10px;
     }
 }
 
