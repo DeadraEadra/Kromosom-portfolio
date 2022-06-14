@@ -198,7 +198,7 @@ header {
 }
 
 .langlogo {
-    width: 45px;
+    width: 65px;
     height: auto;
     color:#f4e7bf;
     margin-left: 25px;
@@ -222,7 +222,7 @@ header {
     align-items: stretch;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 16px;
-    color: #f4e7bf;
+    color: #F4E7BF;
     background-color: #1f1f1f;
 }
 
@@ -230,16 +230,22 @@ header {
 table {
     min-width: 260px;
     padding-left: 10px;
-    padding-right: 40px;
+    padding-right: 10px;
     padding-top: 20px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
 }
 
-.day {
+.day{
     padding-right: 20px;
     font-weight: bold;
+    text-align: right;
+    line-height: 20px;
+}
+
+td, th {
+    font-weight: lighter;
 }
 
 .footertitle {
@@ -253,6 +259,7 @@ table {
 
 .footeritem {
     text-align: center;
+    color: #F4E7BF;
 }
 
 /*the social icoons*/
@@ -308,25 +315,27 @@ table {
     }
 
     .footerlogo {
-        content: url("/Pictures/beige_person.png"); 
-        transform: scaleX(-1);
-        margin-left: 40px;
-        z-index: 1;
-        width: 20px;
-        margin-bottom: -80px;
+        width: 45px;
+        height: auto;
+        color:#f4e7bf;
+        /* margin-left: 25px; */
+        padding-top: 20px;
     }
 
     .footeritem {
-        min-width: 190px;
+        min-width: 156px;
         text-align: center;
         margin-top: 50px;
     }
 
     .smallmessage {
         max-width: 150px;
-        margin-top: 60px;
-        text-align: right;
+        margin-top: 20px;
+        margin-left: -20px;
+        text-align: left;
         font-size: 12px;
+        line-height: normal;
+        font-weight: lighter;
     }
 
     .copyright {
@@ -349,12 +358,11 @@ table {
         font-size: 10px;
         text-align: center;
         margin: auto;
-        margin-bottom: 20px;
     }
 
-    table {
+    /* table {
         padding-right: 10px;
-    }
+    } */
 }
 
  /*Phone view*/
@@ -363,6 +371,10 @@ table {
     /*footer*/
 
     .smallmessage {
+        display: none;
+    }
+
+    .langlogo {
         display: none;
     }
 
