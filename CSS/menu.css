@@ -38,9 +38,9 @@ html {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 10%;
 
 }
 
@@ -255,11 +255,11 @@ td {
     }
 
     .coffeecard {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 80%;
+        padding: 10px 10px 30px 10px;
       
     }
+
 
     .moonicon {
         display: block;
@@ -288,15 +288,17 @@ td {
     }
 
     .night-card {
-        width: 80%;
+        width: 90%;
     }
 
     .day-card {
-        width: 80%;
+        width: 90%;
     }
 
     table {
-        width: 80%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .sun{
@@ -343,7 +345,8 @@ td {
 
     .fadol{
         text-align: right;
-        width: 90%;
+        width: 100%;
+        
     }
 
     .specialscontainer{
