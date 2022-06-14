@@ -338,10 +338,12 @@ td {
     /*move some titles to right so that it becomes readable*/
     #hotdrinks{
         text-align: right;
+        margin-right: 20px;
     }
 
     .fadol{
         text-align: right;
+        width: 90%;
     }
 
     .specialscontainer{
