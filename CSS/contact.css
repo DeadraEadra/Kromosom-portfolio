@@ -120,9 +120,9 @@ body {
 
 /* Barbies easter egg */
 
-.barbies-div {
+/* .barbies-div {
     position: relative;
-}
+} */
 
 .barbies {
     height: 350px;
@@ -134,11 +134,14 @@ body {
     z-index: -1;
 }
 
-.barbies:hover {
+/* .barbies:hover {
     left: 100px;
     bottom: 245px;
+} */
+button {
+    all: unset;
+    cursor: pointer;
 }
-
 /* Barbies easter egg */
 
 
