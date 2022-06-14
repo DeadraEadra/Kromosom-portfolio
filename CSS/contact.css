@@ -130,7 +130,7 @@ body {
     transform: rotate(30deg);
     position: absolute;
     left: -40px;
-    bottom: -245px;
+    bottom: -2px;
     z-index: -1;
 }
 
