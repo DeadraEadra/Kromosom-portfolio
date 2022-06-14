@@ -52,7 +52,7 @@ q:before, q:after {
 										/*------- INSERTING FONTS ------*/
 @font-face {
     font-family: 'PhosphateInline';
-    src: url(./Font/PhosphateInline.ttf);
+    src: url(/Font/PhosphateInline.ttf);
  }
 @font-face {
     font-family: 'Space Grotesk';
