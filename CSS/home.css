@@ -55,7 +55,7 @@ body {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .concert-booking-card-home {
@@ -113,15 +113,16 @@ body {
 
 /* Special offers section */
 .specialoffers-section {
-    margin-top: 60vh;
+    margin-top: 40vh;
 }
 
 .specialperson {
-    margin-top: 400px;
+    /* margin-top: 400px; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 20px;
+    margin-left: 20%;
 }
 
 .title{

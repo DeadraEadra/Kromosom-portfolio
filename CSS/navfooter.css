@@ -329,13 +329,8 @@ td, th {
     }
 
     .footerlogo {
-        content: url("/Pictures/beige_person.png"); 
-        margin-left: 40px;
         z-index: 1;
-        margin-bottom: 0px;
-        height: 50px;
         width: auto;
-        margin-top: 20px;
     }
 
     .smallmessage {
