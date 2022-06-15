@@ -11,9 +11,6 @@ playBtn.addEventListener('mouseover', function () {
     // do whatever
     audio.play();
   });
-  // document.getElementById(barbies).style.transition = "2s";
-  // document.getElementById(barbies).style.margin - top = "-100px";
-  // document.getElementById(barbies).style.bottom = "245px";
 }, false);
 
 playBtn.addEventListener('mouseleave', function () {

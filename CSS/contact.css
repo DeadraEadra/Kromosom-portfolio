@@ -257,12 +257,14 @@ button {
         left: -40px;
         bottom: -245px;
         z-index: 1;
+        transition: 0.5s;
     }
 
-    /* .barbies:hover {
+    .barbies:hover {
         left: 100px;
-        bottom: 245px;
-    } */
+        bottom: 5px;
+        transition: 1.5s;
+    }
 
     /* make the barbies hide behing the footer */
     .footercontainer {
