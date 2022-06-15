@@ -1,7 +1,7 @@
 /*THe main image and title*/
 
 body {
-    background-image: url("/Pictures/mainpage_pc_compressed.png");
+    background-image: url("/Pictures/main_background.png");
     background-repeat: no-repeat;
     background-size: 101%;
     background-position-x: center;
@@ -131,6 +131,7 @@ body {
 
 .cardz {
     width: 80%;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -184,7 +185,7 @@ body {
         position: relative;
         text-align: center;
         height: 100vh;
-        top: 80vh;
+        top: 70vh;
     }
 
     .title-special-offers {
@@ -196,6 +197,7 @@ body {
 
     .cardz {
         width: 100%;
+        max-width: 400px;
         border: 2px solid #f4e7bf;
         border-radius: 30px;
     }
