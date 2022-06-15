@@ -45,7 +45,7 @@ html {
 
 th {
     margin-bottom: 15px;
-}night-cardsunlogo
+}
 
 td {
     gap: 10pc;
@@ -97,8 +97,7 @@ td {
 }
 
 
-/*THis special offers*/
-
+/*This special offers*/
 
 .specbar {
     color: #f4e7bf;
@@ -269,7 +268,6 @@ td {
         padding: 10px 10px 30px 10px;
       
     }
-
 
     .moonicon {
         display: block;
