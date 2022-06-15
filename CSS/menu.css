@@ -41,7 +41,6 @@ html {
     width: 90%;
     margin-left: auto;
     margin-right: 10%;
-
 }
 
 th {
@@ -437,7 +436,7 @@ td {
     .partymode{
         display: flex;
         justify-content:flex-start;
-        margin-top: 30px;
+        margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 100px;
