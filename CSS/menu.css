@@ -136,14 +136,16 @@ td {
 
 .cardimage {
     margin-top: 15px;
-    border-radius: 20px; 
+    border-radius: 35px; 
     margin-left: 15px;
     margin-right: 15px;
+
+    border: 2px solid #707070;
 }
 
 .cardimage-bar {
     margin-top: 15px;
-    border-radius: 20px;
+    border-radius: 35px;
     margin-left: 15px;
     margin-right: 15px;
     border: 2px solid #707070;
