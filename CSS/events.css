@@ -122,12 +122,12 @@ body {
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 60px;
-    
+
     text-align: left;
     padding: 80px 70px;
 }
 
-.eventstitle{
+.eventstitle {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -145,10 +145,67 @@ body {
     font-size: 25px;
 }
 
+/* Music easter egg */
+
+/* Setting the button in place */
+.button-div {
+    width: 13vw;
+    height: 13vw;
+    position: absolute;
+    top: 1100px;
+    left: 80px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.299);
+}
+
+.button-box {
+    width: 13vw;
+    height: 13vw;
+    z-index: 9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-button {
+    position: relative;
+    z-index: 11;
+    top: -9.8vw;
+    left: 3.4vw;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+}
+
+.button-img {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.299);
+}
+
+.button-img:active {
+    transform: scale(0.98);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.299);
+}
+
+/* Deletes button's default styling */
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+
+
+/* Barbies easter egg */
+
+
+
+
 /*Making the whole page responsive*/
 @media only screen and (max-width: 900px) {
 
-    .eventstitle{
+    .eventstitle {
         display: flex;
         flex-wrap: wrap;
         width: 70%;
@@ -171,7 +228,7 @@ body {
 
     .facebookmention {
         display: none;
-      
+
     }
 
     /*Yeah we make the dots appear here*/
@@ -226,14 +283,32 @@ body {
 
     .eventpics {
         width: 100%;
-    }  
-}
+    }
 
-.fb-page{
-    position: relative;
-    margin-left: 30%;
-    margin-right: 30%;
-    padding: 40px;
-    width: 30%;
 
+
+    /* Barbies easter egg */
+
+    .button-div {
+        position: relative;
+        /* bottom: 10px; */
+        overflow: visible;
+    }
+
+    .button-img {
+        height: 5vw;
+        width: auto;
+        /* left: -40px;
+        bottom: -245px; */
+        z-index: 1;
+        transition: 0.5s;
+    }
+
+    .fb-page {
+        position: relative;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 40px;
+        width: 30%;
+    }
 }

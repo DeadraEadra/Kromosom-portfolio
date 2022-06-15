@@ -138,7 +138,7 @@ body {
 /* You cannot hover on mobile, so when clicked the animation is turned on and after barbies go back to original position */
 .barbies:hover {
     animation-name: animation;
-    animation-duration: 6s;
+    animation-duration: 4s;
 }
 
 @keyframes animation {
@@ -147,6 +147,10 @@ body {
         bottom: -2150px;
     }
 
+    30% {
+        left: 50px;
+        bottom: -1980px;
+    }
     75% {
         left: 50px;
         bottom: -1980px;
