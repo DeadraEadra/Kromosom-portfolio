@@ -136,7 +136,7 @@ body {
     margin-right: auto;
     display: block;
 
-    border: 2px solid #707070;
+    box-shadow: 0 0 40px -10px rgb(0 0 0 / 25%);
     border-radius: 35px;
 }
 
