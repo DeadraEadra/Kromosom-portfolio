@@ -76,17 +76,19 @@ body {
     /* text-overflow: ellipsis; */
     white-space: nowrap;
     background-color: #F4E7BF;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 /* ------------ LOCATION CONTAINER ----------- */
 .location {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
     padding-bottom: 50px;
+    z-index: -1;
 }
 
 .location-text-container {
@@ -104,6 +106,8 @@ body {
     height: auto;
     width: 90%;
     overflow: hidden;
+    background-color: #55CCD3;
+    box-shadow: #55CCD3 0px 0px 0px 3px, #009481 0px 0px 0px 6px, #F8A7AC 0px 0px 0px 9px, #EC5563 0px 0px 0px 12px, #FD910A 0px 0px 0px 15px, #000000 0px 0px 30px 0px;
 }
 
 .gmap_canvas {
@@ -112,31 +116,60 @@ body {
     width: 100%;
 }
 
-
 /* Barbies easter egg */
 
-/* .barbies-div {
+/* Setting the barbies in place */
+.barbies-div {
     position: relative;
-} */
-
-.barbies {
-    height: 350px;
-    width: auto;
-    transform: rotate(30deg);
-    position: absolute;
-    left: -40px;
-    bottom: -2px;
-    z-index: -1;
+    bottom: 1980px;
+    overflow: visible;
 }
 
-/* .barbies:hover {
-    left: 100px;
-    bottom: 245px;
-} */
+.barbies {
+    height: 250px;
+    width: auto;
+    transform: rotate(20deg);
+    position: absolute;
+    left: -30px;
+    bottom: -2150px;
+    z-index: 2;
+}
+
+/* You cannot hover on mobile, so when clicked the animation is turned on and after barbies go back to original position */
+.barbies:hover {
+    animation-name: animation;
+    animation-duration: 6s;
+}
+
+@keyframes animation {
+    0% {
+        left: -30px;
+        bottom: -2150px;
+    }
+
+    75% {
+        left: 50px;
+        bottom: -1980px;
+    }
+
+    100% {
+        left: -30px;
+        bottom: -2150px;
+    }
+}
+
+/* Deletes button's default styling */
 button {
     all: unset;
     cursor: pointer;
 }
+
+/* Makes the barbies hide behing the footer */
+.footercontainer {
+    position: relative;
+    z-index: 10;
+}
+
 /* Barbies easter egg */
 
 
@@ -223,22 +256,8 @@ button {
     /* ---- MAP ---- */
     .mapouter {
         position: relative;
-        text-align: right;
-        height: auto;
         width: 70%;
-        overflow: hidden;
-        background-color: #55CCD3;
-        box-shadow: #55CCD3 0px 0px 0px 3px, #009481 0px 0px 0px 6px, #F8A7AC 0px 0px 0px 9px, #EC5563 0px 0px 0px 12px, #FD910A 0px 0px 0px 15px, #000000 0px 0px 30px 0px;
     }
-
-    .gmap_canvas {
-        overflow: hidden;
-        background: none !important;
-        width: 100%;
-
-    }
-
-
 
     /* Barbies easter egg */
 
@@ -261,25 +280,21 @@ button {
     }
 
     .barbies:hover {
-        left: 100px;
-        bottom: 5px;
+        left: 50px;
+        bottom: -10px;
         transition: 1.5s;
+        animation: none;
     }
 
-    /* make the barbies hide behing the footer */
-    .footercontainer {
-        position: relative;
-        z-index: 10;
-    }
     /* Barbies easter egg */
 }
 
 @media screen and (max-width:900px) {
-.day-cards {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    gap: 40px;
-    justify-content: center;
-}
+    .day-cards {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+    }
 }
