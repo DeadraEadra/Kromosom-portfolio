@@ -135,6 +135,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+
+    border: 2px solid #707070;
+    border-radius: 35px;
 }
 
 /* Mobile view */
@@ -199,7 +202,7 @@ body {
         width: 100%;
         max-width: 400px;
         border: 2px solid #f4e7bf;
-        border-radius: 30px;
+        border-radius: 35px;
     }
     .whoarewe {
         margin-top: 40px;
