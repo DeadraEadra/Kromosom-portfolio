@@ -134,7 +134,7 @@ td {
     border-style: solid;
 }
 
-.cardimage {
+.cardimage-cafe {
     margin-top: 15px;
     border-radius: 35px; 
     margin-left: 15px;
@@ -161,11 +161,20 @@ td {
     margin-right: 15px;
 }
 
+.card-p {
+    margin-top: 30px;
+    height: 80px;
+}
+
 .price-card {
     font-weight: lighter;
     padding-left: 120px;
     margin-top: -24px;
     font-size: 25px;
+}
+
+.price-div-beer {
+    margin-bottom: 20px;
 }
 
 .cards{
