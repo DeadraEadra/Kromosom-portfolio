@@ -78,3 +78,9 @@
 .jaj{
     align-self: flex-end;
 }
+
+/*The flower navigation*/
+
+.flowerclosed{
+    margin-top: -400px;
+}

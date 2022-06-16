@@ -384,7 +384,11 @@ td, th {
         display: none;
     }
 
-    .langlogo {
+    /* .langlogo {
+        display: none;
+    } */
+
+    .footerlogo {
         display: none;
     }
 
