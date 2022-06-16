@@ -97,17 +97,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-left: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20%;
     margin-right: 80%;
+
 }
+
+
 
 #flowerclosed{
     margin-top: -250px;
 }
 
+
+
 #navlist{
-    list-style-type: disc;
+    list-style-image: url(/Pictures/aboutpng/dot.svg);
     color: #FD910A;
     width: 10px;
+    position: absolute;
+    top: 320px;
+    left: 25.8%;
+}
+
+
+
+#flowerclosed{
+    position: relative;
+}
+
+.navlistitem{
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight: bold;
+}
+#ourstory{
+    margin-top: 50vh;
 }

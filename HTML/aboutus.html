@@ -78,9 +78,9 @@
             <div id=floweropen style="display: none;">
                 <img src="/Pictures/aboutpng/orangeline.png" alt="Orange line" width="7px">
                 <ul id="navlist">
-                    <li>Our story</li>
-                    <li>Our mission</li>
-                    <li>Symbols</li>
+                    <li><a class="navlistitem" href="#ourstory">Our story</a></li>
+                    <li><a class="navlistitem" href="#2">Our mission</a></li>
+                    <li><a class="navlistitem" href="#3">Symbols</a></li>
                 </ul>
 
             </div>
@@ -88,7 +88,7 @@
 
         <!--Our story section-->
         <!--Title-->
-        <h1 class="title">OUR STORY</h1>
+        <h1 id="ourstory" class="title">OUR STORY</h1>
         <!--Hero Image-->
         <div class="storycontainer">
             <!--Our story 1. chapter-->
@@ -137,7 +137,7 @@
         <h2>This is us now</h2>
         <!--Our mission section-->
         <!--Title-->
-        <h1 class="title">OUR MISSION</h1>
+        <h1 id="2" class="title">OUR MISSION</h1>
         <!--Introduction text-->
         <p>We are the management, consisting of Andrea as the over-all manager and lucky owner, Soni as the day-to-day
             manager and trusty janitor, Katrine (often referred to by their nickname Længste - or Long one) as the
@@ -180,7 +180,7 @@
 
         <!--Symbols section-->
         <!--Title-->
-        <h1 class="title">SYMBOLS</h1>
+        <h1 id="3" class="title">SYMBOLS</h1>
         <!--Symbols description text-->
         <p>At Kromosom we cherish individuality, therefore, we have many inside jokes and elements that have a deeper
             meaning to us. Want to feel more like a part of our community?
@@ -336,6 +336,9 @@
             document.getElementById('flowerclosed').style.display = "none";
             document.getElementById('floweropen').style.display = "block";
             document.getElementById('navlist').style.display = "block";
+
+            document.getElementById('floweropen').style.transition = "0.2s";
+            document.getElementById('navlist').style.transition = "0.2s";
             ;
         }, false);
 
@@ -343,6 +346,9 @@
             document.getElementById('floweropen').style.display = "none";
             document.getElementById('flowerclosed').style.display = "block";
             document.getElementById('navlist').style.display = "none";
+
+            document.getElementById('floweropen').style.transition = "0.2s";
+            document.getElementById('navlist').style.transition = "0.2s";
         }, false);
     </script>
 
