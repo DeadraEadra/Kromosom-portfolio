@@ -20,15 +20,16 @@
 /* PC view  */
 @media only screen and (min-width: 900px) {
 
-    .error{
-        display:none;
+    .error {
+        display: none;
     }
-    
+
     body {
         background-image: url(/Pictures/backgrounds/desktop/aboutus_pc.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     /* .heading-aboutus {
         background-image: url(/Pictures/about-us2.png);
         background-repeat: no-repeat;
@@ -42,7 +43,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     } */
-    
+
     .onclick-aboutus-button {
         margin-top: 33rem;
         margin-left: 44rem;
@@ -86,51 +87,61 @@
     gap: 5px;
 }
 
-.jaj{
+.jaj {
     align-self: flex-end;
 }
 
 /*The flower navigation*/
 
 
-#flower{
+#flower {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    margin-left: 20%;
+    padding-bottom: 50px;
+    margin-left: 200px;
     margin-right: 80%;
 
 }
 
 
 
-#flowerclosed{
+#flowerclosed {
     margin-top: -250px;
 }
 
 
 
-#navlist{
+#navlist {
     list-style-image: url(/Pictures/aboutpng/dot.svg);
     color: #FD910A;
     width: 10px;
     position: absolute;
-    top: 320px;
-    left: 25.8%;
+    top: 300px;
+    left: 276px;
+    padding-top: 20px;
 }
 
 
 
-#flowerclosed{
+#flowerclosed {
     position: relative;
 }
 
-.navlistitem{
+.navlistitem {
     font-family: 'Space Grotesk', sans-serif;
-	font-weight: bold;
+    font-weight: bold;
+    color: #FD910A;
 }
-#ourstory{
+
+#ourstory {
     margin-top: 50vh;
+}
+
+li {
+    width: 100px;
+    line-height: 20px;
+    vertical-align: middle;
 }
