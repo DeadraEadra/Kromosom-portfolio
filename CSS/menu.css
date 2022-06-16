@@ -189,13 +189,13 @@ td {
 /*Background for 1st*/
 @media screen and (min-width:900px) {
     .cafe {
-        background-color: #f4e7bf;
+        background-image: url("/Pictures/backgrounds/desktop/menu1_pc.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .bar {
-        background-color: #1F1F1F;
+        background-image: url("/Pictures/backgrounds/desktop/menu2_pc.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -229,13 +229,13 @@ td {
 @media screen and (max-width:900px) {
 
     .cafe {
-        background-color: #f4e7bf;
+        background-image: url("/Pictures/backgrounds/mobile/menu1_mobile.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .bar {
-        background-color: #1F1F1F;
+        background-image: url("/Pictures/backgrounds/mobile/menu2_mobile.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -286,7 +286,7 @@ td {
     }
 
     .sunmoon {
-        background-image: none;
+        background-image: none; /*what is this?????????*/
         background-repeat: repeat-y;
         background-size: cover;
     }
@@ -376,7 +376,7 @@ td {
 @media screen and (min-width:900px) {
 
     .bar {
-        background-color: #1F1F1F;
+        background-image: url("/Pictures/backgrounds/desktop/menu2_pc.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }

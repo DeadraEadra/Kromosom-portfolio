@@ -1,7 +1,7 @@
 /*THe main image and title*/
 
 .hero {
-    background-image: url("/Pictures/mainpage_pc_hero.png");
+    background-image: url("/Pictures/backgrounds/desktop/mainpage_pc_hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -9,7 +9,7 @@
 }
 
 main {
-    background-image: url("/Pictures/mainpage_pc_bg.png");
+    background-image: url("/Pictures/backgrounds/desktop/mainpage_pc_bg.png");
     background-repeat: no-repeat;
     background-size: 80% cover;
     /* background-position: center; */
@@ -271,7 +271,7 @@ main {
 @media screen and (max-width:760px) {
 
     body {
-        background-image: url("/Pictures/mobile/mainpage_mobile.png");
+        background-image: url("/Pictures/backgrounds/mobile/mainpage_mobile.png");
         background-repeat: no-repeat;
         background-size: cover;
     }

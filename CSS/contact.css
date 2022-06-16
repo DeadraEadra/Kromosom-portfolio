@@ -1,6 +1,6 @@
 /* ------------ CONTACT US CONTAINER ----------- */
 body {
-    background-image: url("/Pictures/contactus_mobile.png");
+    background-image: url("/Pictures/backgrounds/mobile/contactus_mobile.png");
     background-repeat: no-repeat;
     background-size: 100%;
     flex-direction: column;
@@ -183,7 +183,7 @@ button {
 @media screen and (min-width:900px) {
 
     body {
-        background-image: url("/Pictures/contactus_ver2.png");
+        background-image: url("/Pictures/backgrounds/desktop/contactus_ver2.png");
         background-repeat: no-repeat;
         background-size: 100%;
         flex-direction: column;

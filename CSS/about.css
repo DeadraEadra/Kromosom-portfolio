@@ -1,14 +1,20 @@
 /*HOW IT WOULD LOOK*/
 /* Mobile view  */
 @media only screen and (max-width: 899px) {
-    .onclick-aboutus{
+    body {
+        background-image: url(/Pictures/backgrounds/mobile/aboutus_mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* .onclick-aboutus{
         display: none;
     }
     
     .error{
         margin-left: 60px;
         margin-right: 60px;
-    }
+    } */
 }
 
 /* PC view  */
@@ -18,7 +24,12 @@
         display:none;
     }
     
-    .heading-aboutus {
+    body {
+        background-image: url(/Pictures/backgrounds/desktop/aboutus_pc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .heading-aboutus {
         background-image: url(/Pictures/about-us2.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -30,7 +41,7 @@
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    } */
     
     .onclick-aboutus-button {
         margin-top: 33rem;
