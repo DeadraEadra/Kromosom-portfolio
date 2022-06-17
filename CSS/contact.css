@@ -246,7 +246,7 @@ button {
         position: relative;
         margin-top: 15vh;
         padding-bottom: 50px;
-        z-index: -2;
+        z-index: 0;
     }
 
     .location-header {

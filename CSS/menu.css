@@ -42,7 +42,29 @@ html {
     margin-left: auto;
     margin-right: 10%;
 
-    
+    /* background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ); */
+}
+
+.fadol {
+    /* background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ); */
+    /* border-radius: 300px; */
+    /* font-weight: bolder; */
+    text-shadow: 1px 1px 6px #f4e7bf;
+    -webkit-text-stroke: 0.4px #f4e7bf;
+    letter-spacing: 2px;
+}
+
+.day-mode {
+    text-shadow: 1px 1px #1F1F1F;
+    -webkit-text-stroke: 0.4px #fd910a;
 }
 
 th {
@@ -396,7 +418,7 @@ td {
         align-items: baseline;
         max-width: 60%;
         margin-right: auto;
-        margin-top: 450px;
+        margin-top: 500px;
         
     }
 

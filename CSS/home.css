@@ -72,7 +72,7 @@ main {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12vh;
+    margin-top: 18vh;
 }
 
 .concert-booking-card-home {
@@ -337,7 +337,7 @@ main {
     } */
 
     .cards-container {
-        margin-top: 30vh;
+        margin-top: 45vh;
         width: 70%;
     }
 
