@@ -4,7 +4,7 @@
     body {
         background-image: url(/Pictures/backgrounds/mobile/aboutus_mobile.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
     }
 
     /* .onclick-aboutus{
@@ -55,6 +55,13 @@
     }
 }
 
+.title {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+    z-index: -7;
+}
+
 /*OUR STORY  - STYLES*/
 
 /*THe lorem ipsum cards*/
@@ -91,28 +98,31 @@
     align-self: flex-end;
 }
 
+
+/* Web*/
 /*The flower navigation*/
 
 
 #flower {
     display: flex;
+    position: relative;
     flex-direction: column;
-    align-items: center;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 80%;
+    left: 0px;
+    width: 400px;
 
 }
-
 
 
 #flowerclosed {
     margin-top: -250px;
 }
 
-
+.orangeline {
+    margin-left: 90px;
+}
 
 #navlist {
     list-style-image: url(/Pictures/aboutpng/dot.svg);
@@ -120,16 +130,12 @@
     width: 10px;
     position: absolute;
     top: 300px;
-    left: 226.5px;
+    left: 167px;
     padding-top: 20px;
 }
 
 .navlistitem:hover {
     text-decoration: underline;
-}
-
-#flowerclosed {
-    position: relative;
 }
 
 .navlistitem {
@@ -140,7 +146,13 @@
 }
 
 #ourstory {
-    margin-top: 50vh;
+    position: absolute;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 li {
@@ -163,6 +175,7 @@ li {
     border: #f4e7bf 2px solid;
     box-shadow: 5px 7px #f4e7bf;
     border-radius: 15px;
+    background: #1f1f1f;
 }
 
 .storychapter {
@@ -176,6 +189,8 @@ li {
 
 .storycontainer {
     display: flex;
+    position: absolute;
+    top: 120vh;
     justify-content: space-between;
     align-items: center;
     gap: 2%;
@@ -198,8 +213,43 @@ li {
 
 }
 
-.push{
+.push {
 
     margin-top: 200px;
     margin-bottom: 100px;
 }
+
+.jajj {
+    text-align: right;
+}
+
+.us {
+    position: absolute;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 355vh;
+}
+
+#ourmission {
+    position: relative;
+    margin-top: 150vh;
+}
+
+.missiontext {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    width: 300px;
+    padding: 10px;
+    color: #f4e7bf;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* Phone*/
