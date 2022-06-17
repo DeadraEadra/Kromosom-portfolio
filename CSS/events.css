@@ -156,6 +156,7 @@ body {
     left: 80px;
     border-radius: 5px;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.299);
+    z-index: 0;
 }
 
 .button-box {
