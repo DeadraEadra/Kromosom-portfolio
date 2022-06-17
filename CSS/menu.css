@@ -63,8 +63,8 @@ html {
 }
 
 .day-mode {
-    text-shadow: 1px 1px 6px #1F1F1F;
-    -webkit-text-stroke: 0.4px #1F1F1F;
+    text-shadow: 1px 1px #1F1F1F;
+    -webkit-text-stroke: 0.4px #fd910a;
 }
 
 th {
