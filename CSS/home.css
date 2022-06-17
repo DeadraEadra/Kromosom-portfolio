@@ -24,12 +24,22 @@ main {
 
 /* GIF */
 #loader {
-    /* position: fixed; */
-    width: 100%;
-    height: 100vh;
-    background: black url('/Pictures/intro-gif.gif') no-repeat center;
-    z-index: 20;
+    background-color:#000;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:999;
+    transition: all .5s;
 }
+  
+#loader img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .maintitle {
     position: relative;
@@ -72,7 +82,7 @@ main {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 18vh;
+    margin-top: 25vh;
 }
 
 .concert-booking-card-home {
@@ -291,6 +301,10 @@ main {
         min-height: fit-content;
     }
 
+    #loader img {
+        background-image: url(/Pictures/animation-mobile-black-bg.gif);
+    }
+
     .hero {
         background: none;
         height: 100vh;
@@ -333,7 +347,7 @@ main {
     }
 
     .cards-container {
-        margin-top: 30vh;
+        margin-top: 45vh;
         width: 70%;
     }
 
