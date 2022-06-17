@@ -2,112 +2,114 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Fonts Linking -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Fonts Linking -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-    <!-- CSS Linking -->
-    <link rel="stylesheet" href="/CSS/navfooter.css">
-    <link rel="stylesheet" href="/CSS/basicstyles.css">
-    <link rel="stylesheet" href="/CSS/gallery.css">
+  <!-- CSS Linking -->
+  <link rel="stylesheet" href="/CSS/navfooter.css">
+  <link rel="stylesheet" href="/CSS/basicstyles.css">
+  <link rel="stylesheet" href="/CSS/gallery.css">
 
-    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
-    <title>Kromosom - Gallery</title>
+  <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
+  <title>Kromosom - Gallery</title>
 </head>
 
 <body>
 
   <!-- Navigation bar -->
   <nav>
-      <!--For mobile-->
-      <div class="mobilenav">
-          <div class="navbar"></div>
-          <a href="/index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
-          <div id="myNav" class="overlay">
-              <!-- Button to close the overlay navigation -->
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!--For mobile-->
+    <div class="mobilenav">
+      <div class="navbar"></div>
+      <a href="/index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-              <!-- Overlay content -->
-              <div class="overlay-content">
-                  <a href="/index.html" class="menuitem">HOME</a>
-                  <a href="/HTML/menucafe.html" class="menuitem">MENU</a>
-                  <a href="/HTML/events.html" class="menuitem">EVENTS</a>
-                  <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
-                  <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
-                  <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
-                  <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
-                  <button class="languagebutton dk">DK</button> &nbsp; <button class="languagebutton en">EN</button>
-                  <div class="langcontainer">
-                      <img class="langlogo" alt="lang" src="/Pictures/beige_person.png">
-                      <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
-                  </div>
-              </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="/index.html" class="menuitem">HOME</a>
+          <a href="/HTML/menucafe.html" class="menuitem">MENU</a>
+          <a href="/HTML/events.html" class="menuitem">EVENTS</a>
+          <a href="/HTML/aboutus.html" class="menuitem">ABOUT US</a>
+          <a href="/HTML/gallery.html" class="menuitem">GALLERY</a>
+          <a href="/HTML/playlists.html" class="menuitem">OUR PLAYLISTS</a>
+          <a href="/HTML/contact.html" class="menuitem">CONTACT US</a>
+          <form style="display: inline" action="index.html" method="get"><button class="languagebutton dk">DK</button>
+          </form> &nbsp;
+          <form style="display: inline" action="index.html"><button class="languagebutton en">EN</button></form>
+          <div class="langcontainer">
+            <img class="langlogo" alt="lang" src="/Pictures/beige_person.png">
+            <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
           </div>
-
-          <!-- Use any element to open/show the overlay navigation menu -->
-          <span onclick="openNav()"></span>
-          <!-- Use any element to open/show the overlay navigation menu -->
-          <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
-                  width="30" height="25">
-          </span>
-
+        </div>
       </div>
+
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span onclick="openNav()"></span>
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png" width="30"
+          height="25">
+      </span>
+
+    </div>
   </nav>
 
   <!--Big title-->
   <h1 class="title">GALLERY</h1>
   <div class="facebookmention">
-      <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40">
-      <p class="check">CHECK OUR<BR>FACEBOOK<BR>FOR MORE!</p>
+    <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40">
+    <p class="check">CHECK OUR<BR>FACEBOOK<BR>FOR MORE!</p>
   </div>
 
   <!--Flexbox for the Pictures-->
   <div class="gallerycontainer">
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-            src="/Pictures/photoframes/frame1.jpg"></div>
+        src="/Pictures/photoframes/frame1.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-            src="/Pictures/photoframes/frame2.jpg"></div>
+        src="/Pictures/photoframes/frame2.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-            src="/Pictures/photoframes/frame3.jpg"></div>
-    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-            src="/Pictures/photoframes/frame4.jpg"></div>
+        src="/Pictures/photoframes/frame3.jpg"></div>
+    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)"
+        class="galleryimage jaj" alt="lang" src="/Pictures/photoframes/frame4.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-            src="/Pictures/photoframes/frame5.jpg"></div>
+        src="/Pictures/photoframes/frame5.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-            src="/Pictures/photoframes/frame6.jpg"></div>
+        src="/Pictures/photoframes/frame6.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-            src="/Pictures/photoframes/frame7.png"></div>
+        src="/Pictures/photoframes/frame7.png"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-            src="/Pictures/photoframes/frame8.jpg"></div>
+        src="/Pictures/photoframes/frame8.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-            src="/Pictures/photoframes/frame9.jpg"></div>
-    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-            src="/Pictures/photoframes/frame10.jpg"></div>
+        src="/Pictures/photoframes/frame9.jpg"></div>
+    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)"
+        class="galleryimage jaj" alt="lang" src="/Pictures/photoframes/frame10.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-            src="/Pictures/photoframes/frame11.jpg"></div>
+        src="/Pictures/photoframes/frame11.jpg"></div>
     <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-            src="/Pictures/photoframes/frame12.jpg"></div>
+        src="/Pictures/photoframes/frame12.jpg"></div>
   </div>
 
 
   <!--Big image opens on click, from w3schools. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery -->
   <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-      <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-      <div class="w3-modal-content w3-animate-zoom">
-        <img id="img01" style="width:100%" alt="image">
-      </div>
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img id="img01" style="width:100%" alt="image">
+    </div>
   </div>
 
   <!--Footer-->
@@ -124,32 +126,32 @@
               <th class="day">Monday</th>
               <th>Closed</th>
             </tr>
-            <tbody>
-              <tr class="hoursrow">
-                <td class="day">Tuesday</td>
-                <td>14:00 - 22:00</td>
-              </tr>
-              <tr class="hoursrow">
-                <td class="day">Wednesday</td>
-                <td>14:00 - 22:00</td>
-              </tr>
-              <tr class="hoursrow">
-                <td class="day">Thursday</td>
-                <td>14:00 - 24:00</td>
-              </tr>
-              <tr class="hoursrow">
-                <td class="day">Friday</td>
-                <td>14:00 - 02:00</td>
-              </tr>
-              <tr class="hoursrow">
-                <td class="day">Saturday</td>
-                <td>14:00 - 02:00</td>
-              </tr>
-              <tr class="hoursrow">
-                <td class="day">Sunday</td>
-                <td>Closed</td>
-              </tr>
-            </tbody>
+          <tbody>
+            <tr class="hoursrow">
+              <td class="day">Tuesday</td>
+              <td>14:00 - 22:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Wednesday</td>
+              <td>14:00 - 22:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Thursday</td>
+              <td>14:00 - 24:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Friday</td>
+              <td>14:00 - 02:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Saturday</td>
+              <td>14:00 - 02:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
           </tbody>
         </table>
       </div>
@@ -169,12 +171,14 @@
           <a href="https://www.facebook.com/Kromosom66">
             <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
             <!-- Rainbow icon of facebook display none when the mouse is not over it -->
-            <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow" src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+            <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow"
+              src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
           </a>
           <a href="https://www.instagram.com/kromosom66/">
             <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
             <!-- Rainbow icon of instagram display none when the mouse is not over it -->
-            <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png" alt="Ig rainbowish">
+            <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png"
+              alt="Ig rainbowish">
           </a>
         </div>
       </div>
@@ -199,24 +203,25 @@
   <!-- End of the FOOTER coding -->
 
   <script>
-      // OPENS THE BURGER MENU
-      function openNav() {
-          document.getElementById("myNav").style.height = "100%";
-      }
-      // CLOSES THE BURGER MENU
-      function closeNav() {
-          document.getElementById("myNav").style.height = "0%";
-      }
+    // OPENS THE BURGER MENU
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    // CLOSES THE BURGER MENU
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
 
-      // CODE FOR SHOWING THE BIG PICTURE
-      function onClick(element) {
-          document.getElementById("img01").src = element.src;
-          document.getElementById("modal01").style.display = "block";
-      }
+    // CODE FOR SHOWING THE BIG PICTURE
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
   </script>
 
   <!-- JS files linking -->
   <script src="/JavaScript/footer.js"></script>
 
 </body>
+
 </html>

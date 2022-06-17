@@ -11,7 +11,7 @@ html {
 
 /* Containers with the Person&Text, title, Vinyl, Spotify playlist and Vibe-box */
 .container {
-    margin-top: 200px;
+    margin-top: 80px;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +22,7 @@ html {
 }
 
 .vinyls {
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     transition: 0.5s ease-in-out;
 }
 
@@ -34,11 +34,13 @@ html {
 .vinyl-sun {
     width: 400px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .vinyl-moon {
     width: 400px;
     margin-top: 800px;
+    margin-bottom: 50px;
 }
 
 .iframe-vinyl-sun {
