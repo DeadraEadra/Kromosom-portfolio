@@ -13,7 +13,7 @@ sunVinyl.onclick = function () {
     // then show it
     daySpotify.style.display = "block";
 
-    document.body.style.backgroundImage = "url(/Pictures/backgrounds/desktop/playlist-extended_pc.png)";
+    document.body.style.backgroundImage = "url(/Pictures/backgrounds/desktop/playlist2_pc.png)";
 
     // moonVinyl.classList.add("margin-top-extended-bgk");
 
