@@ -246,6 +246,7 @@ padding-top: 10vh;
 
 .symbolssection{
     min-height:200vh;
+    padding-bottom: 50px;
 }
 
 .symbolstitle{
@@ -335,7 +336,7 @@ padding-top: 10vh;
 }
 
 .symbol{
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
