@@ -271,9 +271,63 @@ padding-top: 10vh;
 	font-weight: 300;
 	font-size: 16px;
 	color: #1F1F1F;
-	overflow: hidden
+	overflow: hidden;
 }
 
+.symbolcard{
+    width: 200px;
+    box-shadow: 5px 7px #fd910a;
+    border-radius: 30px;
+    background-color: #1f1f1f;
+    
+}
 
+.symbolcards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
 
+.bigtext{
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight: bolder;
+	font-size: 130px;
+	color: #1F1F1F;
+	overflow: hidden;
+    z-index: -2;
+}
+
+.symbolsmalld{
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	color: #1F1F1F;
+	overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.symboltext{
+    font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #1F1F1F;
+	overflow: hidden;
+}
+
+.symcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 800px;
+    padding-left: 30px;
+    gap: 20px;
+}
+
+.symitem{
+    margin-top: -50px;
+    text-align: left;
+    
+}
 /* Phone*/
