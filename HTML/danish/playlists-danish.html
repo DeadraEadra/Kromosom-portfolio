@@ -16,20 +16,19 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- CSS Linking -->
   <link rel="stylesheet" href="/CSS/navfooter.css">
   <link rel="stylesheet" href="/CSS/basicstyles.css">
-  <link rel="stylesheet" href="/CSS/gallery.css">
+  <link rel="stylesheet" href="/CSS/playlists.css">
 
-  <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
-  <title>Kromosom - Gallery</title>
+  <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico" />
+  <title>Kromosom - Our playlists</title>
 </head>
 
 <body>
 
-  <!-- Navigation bar -->
+  <!-- Start of the NAVBAR coding-->
   <nav>
     <!--For mobile-->
     <div class="mobilenav">
@@ -48,8 +47,8 @@
           <a href="/HTML/danish/gallery-danish.html" class="menuitem">GALLERI</a>
           <a href="/HTML/danish/playlists-danish.html" class="menuitem">VORES PLAYLISTER</a>
           <a href="/HTML/danish/contact-danish.html" class="menuitem">KONTAKT OS</a>
-          <form style="display: inline" action="/HTML/danish/gallery-danish.html" method="get"><button class="languagebutton dk">DK</button>
-          </form> &nbsp; <form style="display: inline" action="/HTML/gallery.html" method="get"><button
+          <form style="display: inline" action="/HTML/danish/playlists-danish.html" method="get"><button class="languagebutton dk">DK</button>
+          </form> &nbsp; <form style="display: inline" action="/HTML/playlists.html" method="get"><button
               class="languagebutton en">EN</button></form>
           <div class="langcontainer">
             <img class="langlogo" alt="lang" src="/Pictures/beige_person.png">
@@ -67,51 +66,96 @@
 
     </div>
   </nav>
-
-  <!--Big title-->
-  <h1 class="title">GALLERI</h1>
-  <div class="facebookmention">
-    <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40">
-    <p class="check">SE VORES<BR>FACEBOOK<BR>FOR MERE!</p>
-  </div>
-
-  <!--Flexbox for the Pictures-->
-  <div class="gallerycontainer">
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame1.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame2.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame3.jpg"></div>
-    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)"
-        class="galleryimage jaj" alt="lang" src="/Pictures/photoframes/frame4.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame5.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame6.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame7.png"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame8.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame9.jpg"></div>
-    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)"
-        class="galleryimage jaj" alt="lang" src="/Pictures/photoframes/frame10.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame11.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame12.jpg"></div>
-  </div>
+  <!-- End of the NAVBAR coding -->
 
 
-  <!--Big image opens on click, from w3schools. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery -->
-  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-    <div class="w3-modal-content w3-animate-zoom">
-      <img id="img01" style="width:100%" alt="image">
+  <main>
+
+    <div class="container">
+
+      <!-- Little man with text -->
+      <div class="facebookmention">
+        <img src="/Pictures/logo_little.png" alt="logo" width="40">
+        <p class="check" style="color: black;">VIL DU CHECKE<br>VORES MUSIK UD?</p>
+      </div>
+
+      <!-- Title -->
+      <div class="heading">
+        <h1>VORES<br>PLAYLISTER</h1>
+      </div>
+
+      <div class="row">
+
+        <!-- The sun vinyl section -->
+        <div class="vinyls sun-vinyl">
+          <a href="#day-spotify">
+            <img class="vinyl-sun sun-vinyl-mobile" id="sun-vinyl" src="/Pictures/vinyl-sun.png"
+              alt="A vinyl image with a sun in the middle" style="cursor: pointer;" />
+          </a>
+        </div>
+
+        <!-- Day Spotify Iframe import -->
+        <div class="card" id="day-spotify">
+          <div class="card-header">
+            <h1>CHILL OM<br>DAGEN</h1>
+          </div>
+          <div class="card-body">
+            <iframe class="iframe-vinyl-sun"
+              src="https://open.spotify.com/embed/playlist/53yRtUq1VZvwsLKEKkuNdF?utm_source=generator" frameBorder="0"
+              allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+
+            <!-- What's the Vibe of the Spotify playlist info box -->
+            <div class="btn">
+              <h2 style="text-align: left;">HVAD ER VIBEN?</h2>
+              <p style="text-align: left; color: #1F1F1F; font-family: 'Space Grotesk';"><br><br>
+                ngelsk eller Dansk? Hvad foretrækker du?<br>
+                Danse eller arbejde? Giv det et skud!<br>
+                Kaffe og tuborg stopper din sorg<br>
+                Thy pils og cappuccino - så føler du dig fino!<br>
+                Fadbamser og mokka, tårer har du spildt nok a’<br>
+                Nu eller aldrig - lyt til vores playliste
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- The moon vinyl section -->
+        <div class="vinyls">
+          <a href="#night-spotify">
+            <img class="vinyl-moon moon-vinyl-mobile" id="moon-vinyl" src="/Pictures/vinyl-moon.png"
+              alt="A vinyl image with a moon in the middle" style="cursor: pointer;" />
+          </a>
+        </div>
+
+        <!-- Night Spotify Iframe import -->
+        <div class="card" id="night-spotify">
+          <div class="card-header">
+            <h1>FEST OM<br>AFTENEN</h1>
+          </div>
+          <div class="card-body">
+            <iframe class="iframe-vinyl-moon"
+              src="https://open.spotify.com/embed/playlist/1kN8ZKn434Xbc8zq882e6W?utm_source=generator" frameBorder="0"
+              allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+
+            <!-- What's the Vibe of the Spotify playlist info box -->
+            <div class="btn">
+              <h2 style="text-align: left;">HVAD ER VIBEN?</h2>
+              <p style="text-align: left; color: #F4E7BF; font-family: 'Space Grotesk';"><br><br>
+                Mørkere udenfor, men vi får energien til at lyse!<br>
+                Vores musikudvalg får dig til at trives<br>
+                Der er mange nye venner du kan møde i nat<br>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </main>
 
+  <!-- Start of the FOOTER coding -->
   <!-- Footer -->
   <footer>
     <div class="footercontainer">
@@ -203,23 +247,19 @@
   <!-- End of the FOOTER coding -->
 
   <script>
-    // OPENS THE BURGER MENU
+    // --- BURGER MENU actions ---
+    // Opens the Burger Menu
     function openNav() {
       document.getElementById("myNav").style.height = "100%";
     }
-    // CLOSES THE BURGER MENU
+    // Closes the Burger Menu
     function closeNav() {
       document.getElementById("myNav").style.height = "0%";
-    }
-
-    // CODE FOR SHOWING THE BIG PICTURE
-    function onClick(element) {
-      document.getElementById("img01").src = element.src;
-      document.getElementById("modal01").style.display = "block";
     }
   </script>
 
   <!-- JS files linking -->
+  <script src="/JavaScript/playlists.js"></script>
   <script src="/JavaScript/footer.js"></script>
 
 </body>

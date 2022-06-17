@@ -16,25 +16,28 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- CSS Linking -->
   <link rel="stylesheet" href="/CSS/navfooter.css">
   <link rel="stylesheet" href="/CSS/basicstyles.css">
-  <link rel="stylesheet" href="/CSS/gallery.css">
+  <link rel="stylesheet" href="/CSS/contact.css">
 
   <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
-  <title>Kromosom - Gallery</title>
+  <title>Kromosom - Contact</title>
 </head>
 
 <body>
 
-  <!-- Navigation bar -->
+  <!-- Start of the NAVBAR coding-->
   <nav>
     <!--For mobile-->
     <div class="mobilenav">
+
       <div class="navbar"></div>
-      <a href="/HTML/danish/home-danish.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
+      <a href="/HTML/danish/home-danish.html">
+        <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
+      </a>
+
       <div id="myNav" class="overlay">
         <!-- Button to close the overlay navigation -->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -48,8 +51,8 @@
           <a href="/HTML/danish/gallery-danish.html" class="menuitem">GALLERI</a>
           <a href="/HTML/danish/playlists-danish.html" class="menuitem">VORES PLAYLISTER</a>
           <a href="/HTML/danish/contact-danish.html" class="menuitem">KONTAKT OS</a>
-          <form style="display: inline" action="/HTML/danish/gallery-danish.html" method="get"><button class="languagebutton dk">DK</button>
-          </form> &nbsp; <form style="display: inline" action="/HTML/gallery.html" method="get"><button
+          <form style="display: inline" action="/HTML/danish/playlists-danish.html" method="get"><button class="languagebutton dk">DK</button>
+          </form> &nbsp; <form style="display: inline" action="/HTML/contact.html" method="get"><button
               class="languagebutton en">EN</button></form>
           <div class="langcontainer">
             <img class="langlogo" alt="lang" src="/Pictures/beige_person.png">
@@ -68,49 +71,101 @@
     </div>
   </nav>
 
-  <!--Big title-->
-  <h1 class="title">GALLERI</h1>
-  <div class="facebookmention">
-    <img src="/Pictures/logo_little.png" alt="logo" WIDTH="40">
-    <p class="check">SE VORES<BR>FACEBOOK<BR>FOR MERE!</p>
-  </div>
+  <!-- Contact us section -->
+  <div class="contact-us-container">
+    <h1 class="title" style="font-size: 55px;">KONTAKT OS</h1>
 
-  <!--Flexbox for the Pictures-->
-  <div class="gallerycontainer">
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame1.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame2.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame3.jpg"></div>
-    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)"
-        class="galleryimage jaj" alt="lang" src="/Pictures/photoframes/frame4.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame5.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame6.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame7.png"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame8.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame9.jpg"></div>
-    <div class="galleryitem horizontal-frame"><img style="cursor:pointer" onclick="onClick(this)"
-        class="galleryimage jaj" alt="lang" src="/Pictures/photoframes/frame10.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage" alt="lang"
-        src="/Pictures/photoframes/frame11.jpg"></div>
-    <div class="galleryitem"><img style="cursor:pointer" onclick="onClick(this)" class="galleryimage jaj" alt="lang"
-        src="/Pictures/photoframes/frame12.jpg"></div>
-  </div>
-
-
-  <!--Big image opens on click, from w3schools. https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery -->
-  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-    <div class="w3-modal-content w3-animate-zoom">
-      <img id="img01" style="width:100%" alt="image">
+    <!-- Cards -->
+    <div class="cards-container">
+      <div class="card social-media-card">
+        <h2>SOCIALE MEDIER</h2>
+        <div class="social-media-icons">
+          <a class="card-icon" href="https://www.facebook.com/Kromosom66"><img class="socials_contact-img"
+              src="/Pictures/fb-icon.png" alt="Facebook icon link">
+          </a>
+          <a class="card-icon" href="https://www.instagram.com/kromosom66/"><img class="socials_contact-img"
+              src="/Pictures/ig-icon.png" alt="Instagram">
+          </a>
+        </div>
+      </div>
+      <div class="card concert-booking-card">
+        <h2>EVENT BOOKING</h2>
+        <div class="social-media-icons">
+          <p class="p5">musikbooking66@gmail.com</p>
+        </div>
+      </div>
+      <div class="email-card-about-us">
+        <div class="card direct-email-card">
+          <h2>DIREKTE EMAIL</h2>
+          <div class="social-media-icons">
+            <p class="p5">kromosom66@gmail.com</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <!-- OPENING HOURS CONTAINER -->
+  <div class="brain-container">
+    <h1 style="margin-top: 150px;">ÅBNINGSTIDER</h1>
+    <div class="day-cards">
+      <div class="day-card">
+        <p class="p4">MANDAG</p>
+        <p class="p3">LUKKET</p>
+      </div>
+
+      <div class="day-card">
+        <p class="p4">TIRSDAG</p>
+        <p class="p3">14:00-22:00</p>
+      </div>
+      <div class="day-card">
+        <p class="p4">ONSDAG</p>
+        <p class="p3">14:00-22:00</p>
+      </div>
+      <div class="day-card">
+        <p class="p4">TORSDAG</p>
+        <p class="p3">14:00-24:00</p>
+      </div>
+      <div class="day-card">
+        <p class="p4">FREDAG</p>
+        <p class="p3">14:00-02:00</p>
+      </div>
+      <div class="day-card">
+        <p class="p4">LØRDAG</p>
+        <p class="p3">14:00-02:00</p>
+      </div>
+      <div class="day-card">
+        <p class="p4">SØNDAG</p>
+        <p class="p3">LUKKET</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------- LOCATION CONTAINER -------------  -->
+  <div class="location">
+    <div class="location-text-container">
+      <h1 class="location-header">BELIGGENHED</h1>
+      <h2>ADDRESSE</h2>
+      <p class="p4">Nørre Allé 66, 8000 Aarhus</p>
+    </div>
+    <div class="mapouter">
+      <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas"
+          src="https://maps.google.com/maps?q=N%C3%B8rre%20All%C3%A9%2066,%208000%20Aarhus&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barbie  easter egg -->
+  <audio id="heartbeat" src="/barbies.mp3" preload="auto">
+    Your browser does not support the <code>audio</code> element.
+  </audio>
+
+  <div class="barbies-div">
+    <button id="play"><img class="barbies" id="barbies reset" src="/pictures/barbies.png"
+        alt="Image of barbies having fun"></button>
+  </div>
+  <!-- Barbie  easter egg -->
 
   <!-- Footer -->
   <footer>
@@ -211,16 +266,11 @@
     function closeNav() {
       document.getElementById("myNav").style.height = "0%";
     }
-
-    // CODE FOR SHOWING THE BIG PICTURE
-    function onClick(element) {
-      document.getElementById("img01").src = element.src;
-      document.getElementById("modal01").style.display = "block";
-    }
   </script>
 
   <!-- JS files linking -->
   <script src="/JavaScript/footer.js"></script>
+  <script src="/JavaScript/barbie-animations.js"></script>
 
 </body>
 
