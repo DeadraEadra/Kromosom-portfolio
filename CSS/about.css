@@ -124,7 +124,9 @@
     padding-top: 20px;
 }
 
-
+.navlistitem:hover{
+    text-decoration: underline;
+}
 
 #flowerclosed {
     position: relative;
@@ -134,6 +136,7 @@
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
     color: #FD910A;
+    vertical-align: center;
 }
 
 #ourstory {
