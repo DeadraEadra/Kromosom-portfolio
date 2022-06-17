@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts Linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="/CSS/navfooter.css">
+    <link rel="stylesheet" href="/CSS/basicstyles.css">
+    <link rel="stylesheet" href="/CSS/menu.css">
+
+    <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico">
+    <title>Kromosom - Menu</title>
+</head>
+
+<body>
+
+    <div class="navbar"></div>
+    <a href="/index.html">
+        <img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png">
+    </a>
+
+    <nav>
+        <!--For mobile-->
+        <div class="mobilenav">
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a href="/HTML/danish/home-danish.html" class="menuitem">HJEM</a>
+                    <a href="/HTML/danish/menucafe-danish.html" class="menuitem">MENU</a>
+                    <a href="/HTML/events.html" class="menuitem">BEGIVENHEDER</a>
+                    <a href="/HTML/aboutus.html" class="menuitem">OM OS</a>
+                    <a href="/HTML/danish/gallery-danish.html" class="menuitem">GALLERI</a>
+                    <a href="/HTML/danish/playlists-danish.html" class="menuitem">VORES PLAYLISTER</a>
+                    <a href="/HTML/danish/contact-danish.html" class="menuitem">KONTAKT OS</a>
+                    <form style="display: inline" action="/HTML/danish/menucafe-danish.html" method="get"><button
+                            class="languagebutton dk">DK</button></form> &nbsp;
+                    <form style="display: inline" action="/HTML/menucafe.html" method="get"><button
+                            class="languagebutton en">EN</button></form>
+                    <div class="langcontainer">
+                        <img class="langlogo" alt="lang" src="/Pictures/logo_little.png">
+                        <p class="langchangetext">Do you wanna<br>change the<br>language?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"></span>
+            <!-- Use any element to open/show the overlay navigation menu -->
+
+            <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png"
+                    width="30" height="25">
+            </span>
+
+        </div>
+    </nav>
+
+    <!--Menu for the cafe-->
+    <div class="cafe">
+
+        <!--The moon icon to switch to bar menu-->
+        <a class="cafebar" href="menubar.html">
+            <img class="moonicon" src="/Pictures/moon-01.png" alt="moonicon" width="100">
+        </a>
+        <!--Turn on the party mode-->
+        <div class="partymode">
+            <div><img src="/Pictures/logo_little.png" alt="personicon" width="40px" ;></div>
+            <div>
+                <p style="font-size: 13px; line-height: 1; color:#f4e7bf" class="p4">KLIK HER<BR>FOR AT SLÅ<br>FEST
+                    MODUS TIL!</p>
+            </div>
+        </div>
+
+        <!--The sun icon at the top of the menu-->
+        <img class="sunlogo" src="/Pictures/sun_menuday.png" alt="sunlogo" width="100">
+
+        <!--The menu-->
+        <div id="bar">
+            <table>
+                <th>
+                    <h2 class="fadol day-mode">FADØL</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">THY PILS</td>
+                    <td>45 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">THY CLASSIC</td>
+                    <td>50 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">IPA</td>
+                    <td>55 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2 class="fadol day-mode">FLASKE ØL</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">THY PILS</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">THY CLASSIC</td>
+                    <td>35 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">SPECIAL ØL</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">CERES TOP</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">ALKOHOL FRI</td>
+                    <td>30 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2 class="fadol day-mode align-left">VIN</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">GLAS</td>
+                    <td>50 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">FLASKE</td>
+                    <td>200 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">BOBLER</td>
+                    <td>250 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2 class="fadol day-mode">SODAVAND</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">SODAVAND</td>
+                    <td>35 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">GINGER BEER</td>
+                    <td>35 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2 class="fadol day-mode align-left">2cl DRIKKE</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">WAP</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">MORJETTE</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">GIN TONIC</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">GIN HASS</td>
+                    <td>60 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">RUM OG COLA</td>
+                    <td>60 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2 class="fadol day-mode">4cl DRIKKE</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">LIGHTSTORMY</td>
+                    <td>70 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">SONI ON THE BEACH</td>
+                    <td>70DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">GLIMMERBØSSE</td>
+                    <td>70 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">MOSCOW MULE</td>
+                    <td>70 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">JACK TWIST</td>
+                    <td>70 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2 class="fadol day-mode">SHOTS</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">ALM. SHOT</td>
+                    <td>20 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">TEQUILA</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">TEQUILA LIME</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">UCRAINE COCAINE</td>
+                    <td>30 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">10 ALM. SHOTS</td>
+                    <td>150 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">10 TEQUILA SHOT</td>
+                    <td>200 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">KROMOSHOT</td>
+                    <td>30 DKK</td>
+                </tr>
+            </table>
+
+            <table>
+                <th>
+                    <h2 class="fadol day-mode align-left" id="fadol">VARME DRIKKE</h2>
+                </th>
+
+                <tr class="day-card">
+                    <td class="product">FILTER KAFFE</td>
+                    <td class="price">30 DKK</td>
+                </tr>
+
+                <tr class="day-card">
+                    <td class="product">SPECIAL KAFFE</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">KAKAO</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">THE</td>
+                    <td>20 DKK</td>
+                </tr>
+
+                <th>
+                    <h2 class="fadol day-mode">SODAVAND</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">SODAVAND</td>
+                    <td>40 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">GINGER BEER</td>
+                    <td>40 DKK</td>
+                </tr>
+
+                <th>
+                    <h2 class="fadol day-mode align-left">SNACKS</h2>
+                </th>
+                <tr class="day-card">
+                    <td class="product">NØDDER</td>
+                    <td>15 DKK</td>
+                </tr>
+                <tr class="day-card">
+                    <td class="product">OLIVER</td>
+                    <td>15 DKK</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--This is where homepage special offers link leads-->
+        <a name="coffecard"></a>
+
+        <!--Coffee card part, SPECIAL OFFERS-->
+        <div class="specialscontainer">
+            <div class="specialperson">
+                <img src="/Pictures/logo_little.png" alt="personicon" width="50px">
+                <p style="font-size: 13px; line-height: 1;" class="p4">VI HAR<BR>SÆRLIGE TILBUD<br>TIL DIG!</p>
+            </div>
+            <div>
+                <h1 class="title special-offers">SÆRLIGE<br>TILBUD</h1>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="coffeecard" id="coffeecard-cafe">
+                <img class="cardimage-cafe" src="/Pictures/coffee_card.png" alt="coffe card image">
+                <div class="cardtext">
+                    <h2>HVORDAN FUNGERER DET?</h2>
+                    <p class="card-p">Kaffekortet giver dig adgang til ad-libitum filterkaffe i en hel måned.</p>
+                    <br><br>
+                    <div class="price-div">
+                        <h2>PRIS:</h2>
+                        <p class="price-card">125 Kr.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coffeecard coffecard-bar">
+                <img class="cardimage-bar" src="/Pictures/beer_card.png" alt="beer card image">
+                <div class="cardtext">
+                    <h2>HVORDAN FUNGERER DET?</h2>
+                    <p class="card-p">Et øl-klippekort indeholder 10 klip. Det første og det sidste klip består af et
+                        kromosom-sæt hver, som indeholder 1 øl og 1 shot. De resterende 8 indeholder hver 1 øl.
+                    </p>
+                    <br><br>
+                    <div class="price-div price-div-beer">
+                        <h2>PRIS:</h2>
+                        <p class="price-card">250 Kr.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+  <footer>
+    <div class="footercontainer">
+      <!-- Opening hours -->
+      <div class="footeritem">
+        <h2 class="footertitle openinghours">ÅBNINGSTIDER</h2>
+      </div>
+      <div class="footeritem">
+        <table>
+          <tbody>
+            <tr>
+              <th class="day">Mandag</th>
+              <th>Lukket</th>
+            </tr>
+          <tbody>
+            <tr class="hoursrow">
+              <td class="day">Tirsdag</td>
+              <td>14:00 - 22:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Onsdag</td>
+              <td>14:00 - 22:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Torsdag</td>
+              <td>14:00 - 24:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Fredag</td>
+              <td>14:00 - 02:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Lørdag</td>
+              <td>14:00 - 02:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Søndag</td>
+              <td>Lukket</td>
+            </tr>
+          </tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Address  -->
+      <div class="footeritem">
+        <h2 class="footertitle">ADRESSE</h2>
+        <p>Nørre Allé 66,</p>
+        <p>8000 Aarhus</p>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footeritem">
+        <h2 class="footertitle">SOCIALE MEDIER</h2>
+
+        <div class="socialscontainer social-media">
+          <a href="https://www.facebook.com/Kromosom66">
+            <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
+            <!-- Rainbow icon of facebook display none when the mouse is not over it -->
+            <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow"
+              src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+          </a>
+          <a href="https://www.instagram.com/kromosom66/">
+            <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
+            <!-- Rainbow icon of instagram display none when the mouse is not over it -->
+            <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png"
+              alt="Ig rainbowish">
+          </a>
+        </div>
+      </div>
+
+      <!-- Icon image with text and Copyright -->
+      <div class="footeritem footerlogo">
+        <img class="langlogo" alt="lang" src="/Pictures/beige_person.png">
+      </div>
+
+      <!-- Greeting text -->
+      <div class="footeritem">
+        <p class="smallmessage">
+          VI GLÆDER OS<br> TIL AT SE DIG!
+        </p>
+      </div>
+
+
+            <div class="footeritem footercopyright">
+                <p class="copyright">© 2022 KROMOSOM. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End of the FOOTER coding -->
+
+    <!--Small script-->
+    <script>
+        // OPENS THE BURGER MENU
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+        // CLOSES THE BURGER MENU
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+    <!-- JS files linking -->
+    <script src="/JavaScript/footer.js"></script>
+
+</body>
+
+</html>
