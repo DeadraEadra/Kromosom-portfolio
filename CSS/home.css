@@ -83,7 +83,7 @@ main {
     border: 2px solid #f4e7bf;
     border-radius: 20px;
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
     /* height: 120px; */
     width: 300px;
     display: flex;
@@ -332,12 +332,8 @@ main {
         margin-top: 30vh;
     }
 
-    /* .card {
-        width: 150px;
-    } */
-
     .cards-container {
-        margin-top: 45vh;
+        margin-top: 30vh;
         width: 70%;
     }
 

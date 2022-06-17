@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts Linking -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- CSS Linking -->
+  <link rel="stylesheet" href="/CSS/navfooter.css" />
+  <link rel="stylesheet" href="/CSS/basicstyles.css" />
+  <link rel="stylesheet" href="/CSS/home.css" />
+
+  <link rel="icon" type="image/x-icon" href="/Pictures/favicon.ico" />
+  <title>Kromosom - Den du er</title>
+</head>
+
+<body>
+
+  <!-- Animation -->
+  <!-- <div id="loader"></div>
+  <div id="content"> -->
+
+  <div class="navbar">
+    <a href="index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png" /></a>
+  </div>
+
+  <!--Navigation-->
+  <nav>
+    <!--For mobile-->
+    <div class="mobilenav">
+      <div class="navbar"></div>
+      <a href="/index.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png"></a>
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="/index.html" class="menuitem">HJEM</a>
+          <a href="/HTML/menucafe.html" class="menuitem">MENU</a>
+          <a href="/HTML/events.html" class="menuitem">BEGIVENHEDER</a>
+          <a href="/HTML/aboutus.html" class="menuitem">OM OS</a>
+          <a href="/HTML/gallery.html" class="menuitem">GALLERI</a>
+          <a href="/HTML/playlists.html" class="menuitem">VORES PLAYLISTER</a>
+          <a href="/HTML/contact.html" class="menuitem">KONTAKT OS</a>
+          <form style="display: inline" action="/HTML/danish/home-danish.html" method="get"><button class="languagebutton dk">DK</button>
+          </form> &nbsp; <form style="display: inline" action="/index.html" method="get"><button
+              class="languagebutton en">EN</button></form>
+          <div class="langcontainer">
+            <img class="langlogo" alt="lang" src="/Pictures/beige_person.png">
+            <p class="langchangetext">Vil Du Ændre<br>Sproget?</p>
+          </div>
+        </div>
+      </div>
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span onclick="openNav()"></span>
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span class="menu" onclick="openNav()"><img class="lines" alt="menuicon" src="/Pictures/burger-img.png" width="30"
+          height="25">
+      </span>
+    </div>
+  </nav>
+
+
+
+
+  <main>
+
+    <!-- Content -->
+    <!-- Title -->
+    <div class="hero">
+      <div class="maintitle">
+        <h1 class="kromosom">KROMOSOM</h1>
+        <h1 class="denduer">- DEN DU ER -</h1>
+      </div>
+    </div>
+
+    <!-- <div class="bg-content"> -->
+    <!--Who are we-->
+    <div class="whoarewe-section">
+      <h1 class="whoarewe title">HVEM ER VI?</h1>
+
+      <!--Gallery link-->
+      <div class="gallerylinkcontainer">
+        <a href="/HTML/gallery.html">
+          <img class="gallerylink galleryimagep" src="/Pictures/photoframes/frame11.jpg" alt="main">
+        </a>
+        <a href="/HTML/gallery.html">
+          <p class="p5 gallerylink">GALLERI ➤</p>
+        </a>
+      </div>
+
+      <!--Boxes + About us link-->
+      <div class="cards-container">
+        <a href="/HTML/aboutus.html">
+          <div class="card social-media-card">
+            <h2>HVEM DU END ER</h2>
+            <p class="p1"><br>Kromosom er en Mangfoldighedsbar og -café beliggende i hjertet af Aarhus - du kan besøge
+              os, uanset hvem du er</p>
+          </div>
+        </a>
+
+        <div class="card concert-booking-card-home">
+          <a href="/HTML/aboutus.html">
+            <h2>SAFE SPACE</h2>
+            <p class="p1"><br>Drikke øl eller kaffe, læse poesi eller se et drag show, danse eller læse, grine eller
+              græde - et sted til alting</p>
+          </a>
+        </div>
+
+        <div class="email-card-about-us">
+          <a href="/HTML/aboutus.html">
+            <div class="card direct-email-card">
+              <h2>INTET KROMOSOM UDEN MENNESKER</h2>
+              <p class="p1"><br>Alle som besøger Kromosom er del af at skabe og forme stedet til dét det er</p>
+            </div>
+          </a>
+
+          <div>
+            <a href="/HTML/aboutus.html">
+              <p class="p5 rmaboutus">LÆS MERE OM OS ➤</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Little logo special offers-->
+    <div class="specialoffers-section">
+      <div class="specialperson">
+        <img src="/Pictures/logo_little.png" alt="personicon" width="70">
+        <p class="p4">VI HAR SÆRLIGE<BR>TILBUD TIL DIG!</p>
+      </div>
+
+      <!--Special offers, cards-->
+      <h1 class="title title-special-offers">SÆRLIGE TILBUD</h1>
+      <!-- Beer and coffee cards -->
+      <div class="cardscontainer">
+        <a href="HTML/menucafe.html#coffeecard-cafe"> <img class="cardz" src="/Pictures/coffee_card.png"
+            alt="main" /></a>
+        <a href="HTML/menubar.html#coffeecard-bar"> <img class="cardz" src="/Pictures/beer_card.png" alt="main" /></a>
+      </div>
+    </div>
+    <!-- </div> -->
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footercontainer">
+      <!-- Opening hours -->
+      <div class="footeritem">
+        <h2 class="footertitle openinghours">ÅBNINGSTIDER</h2>
+      </div>
+      <div class="footeritem">
+        <table>
+          <tbody>
+            <tr>
+              <th class="day">Mandag</th>
+              <th>Lukket</th>
+            </tr>
+          <tbody>
+            <tr class="hoursrow">
+              <td class="day">Tirsdag</td>
+              <td>14:00 - 22:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Onsdag</td>
+              <td>14:00 - 22:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Torsdag</td>
+              <td>14:00 - 24:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Fredag</td>
+              <td>14:00 - 02:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Lørdag</td>
+              <td>14:00 - 02:00</td>
+            </tr>
+            <tr class="hoursrow">
+              <td class="day">Søndag</td>
+              <td>Lukket</td>
+            </tr>
+          </tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Address  -->
+      <div class="footeritem">
+        <h2 class="footertitle">ADRESSE</h2>
+        <p>Nørre Allé 66,</p>
+        <p>8000 Aarhus</p>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footeritem">
+        <h2 class="footertitle">SOCIALE MEDIER</h2>
+
+        <div class="socialscontainer social-media">
+          <a href="https://www.facebook.com/Kromosom66">
+            <img class="socials_image fbk" id="fbk-icon" src="/Pictures/fb-icon.png" alt="Facebook">
+            <!-- Rainbow icon of facebook display none when the mouse is not over it -->
+            <img style="display: none;" class="socials_image fbk" id="fbk-icon-rainbow"
+              src="/Pictures/fb-icon-rainbow.png" alt="Fbk rainbowish">
+          </a>
+          <a href="https://www.instagram.com/kromosom66/">
+            <img class="socials_image" id="ig-icon" src="/Pictures/ig-icon.png" alt="Instagram">
+            <!-- Rainbow icon of instagram display none when the mouse is not over it -->
+            <img style="display: none;" class="socials_image" id="ig-icon-rainbow" src="/Pictures/ig-icon-rainbow.png"
+              alt="Ig rainbowish">
+          </a>
+        </div>
+      </div>
+
+      <!-- Icon image with text and Copyright -->
+      <div class="footeritem footerlogo">
+        <img class="langlogo" alt="lang" src="/Pictures/beige_person.png">
+      </div>
+
+      <!-- Greeting text -->
+      <div class="footeritem">
+        <p class="smallmessage">
+          VI GLÆDER OS<br> TIL AT SE DIG!
+        </p>
+      </div>
+
+      <div class="footeritem footercopyright">
+        <p class="copyright">© 2022 KROMOSOM. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End of the FOOTER coding -->
+  <!-- </div> -->
+  <!-- End of animation tag -->
+
+  <script>
+    // --- BURGER MENU actions ---
+    // OPENS THE BURGER MENU
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    // CLOSES THE BURGER MENU
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+
+    // GIF ANIMATION
+    // var loader;
+    // function loadNow(opacity) {
+    // if (opacity <= 0) {
+    //   displayContent(); // if the opacity is lower than 0 then show the content
+    // } else {
+    //   loader.style.opacity = opacity;
+    //   window.setTimeout(function() {
+    //   loadNow(opacity - 1); //decrease the opacity of the loader 100% after 6 second cycle,
+    //   }, 6000); // after the web site’s content is available
+    // }
+    // }
+
+    // function displayContent() {
+    //   loader.style.display = 'none'; // hide the GIF after those 6 seconds
+    //   document.getElementById('content').style.display = 'block'; //display the page after GIF ended
+    // }
+
+    // document.addEventListener("DOMContentLoaded", function() {
+    //   loader = document.getElementById('loader'); // get the GIF
+    //   loadNow(1); //load it just one time
+    // });
+  </script>
+
+  <!-- Footer JS file linking -->
+  <script src="/JavaScript/footer.js"></script>
+
+</body>
+
+</html>
