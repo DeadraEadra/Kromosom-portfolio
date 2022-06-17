@@ -211,6 +211,7 @@ li {
   right: 0;
   text-align: center;
   top: 140vh;
+  z-index: -2;
 }
 
 .push {
@@ -409,8 +410,83 @@ button {
 }
 
 /*Web responsivity*/
-@media only screen and (max-width: 10) {
+
+@media only screen and (min-width: 1300px) and (max-width: 1500px){
    
+  .symbolstitle{
+    margin-top: 88vh;
   }
+
+  .symbolsdescription{
+    margin-top: 100vh;
+
+  }
+
+  #ourmission{
+
+    margin-top: 480vh;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1300px){
+   
+  .symbolstitle{
+    margin-top: 88vh;
+  }
+
+  .symbolsdescription{
+    margin-top: 100vh;
+
+  }
+
+  #ourmission{
+
+    margin-top: 480vh;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px){
+
+  #ourstory{
+    top: 20vh;
+  }
+   
+  .symbolstitle{
+    margin-top: 52vh;
+  }
+
+  .symbolsdescription{
+    margin-top: 65vh;
+
+  }
+
+  #ourmission{
+    margin-top: 480vh;
+  }
+
+  .us{
+    padding-left: 110px;
+  }
+
+  .card{
+    width: 400px;
+  }
+
+  .push{
+    margin-top: 50px;
+  }
+
+  .storychapter{
+    width: 300px;
+  }
+
+  .cards-container{
+    margin-top: 20px;
+  }
+
+  .symbolcard{
+    margin-top: 120vh;
+  }
+}
 
 /* Phone*/
