@@ -81,9 +81,9 @@
             <div id=floweropen style="display: none;">
                 <img class="orangeline" src="/Pictures/aboutpng/orangeline.png" alt="Orange line" width="7px">
                 <ul id="navlist">
-                    <li><a class="navlistitem" href="#ourstory">OUR STORY</a></li>
-                    <li><a class="navlistitem" href="#2">OUR MISSION</a></li>
-                    <li><a class="navlistitem" href="#3">SYMBOLS</a></li>
+                    <li><a class="navlistitem" href="#ourstorylink">OUR STORY</a></li>
+                    <li><a class="navlistitem" href="#ourmission">OUR MISSION</a></li>
+                    <li><a class="navlistitem" href="#symlink">SYMBOLS</a></li>
                 </ul>
 
             </div>
@@ -93,7 +93,7 @@
         <!--Title-->
         <h1 id="ourstory" class="title">OUR STORY</h1>
         <!--Hero Image-->
-        <div class="storycontainer">
+        <div id="ourstorylink" class="storycontainer">
             <!--Our story 1. chapter-->
             <div class="storychapter">
                 <!--Chapter title-->
@@ -203,7 +203,7 @@
         </div>
 
         <!--Symbols section-->
-        <div class="symbolssection">
+        <div id="symlink" class="symbolssection">
             <!--Title-->
             <h1 id="3" class="title symbolstitle">SYMBOLS</h1>
             <!--Symbols description text-->
@@ -214,12 +214,12 @@
                 We encourage you to learn more about them! </p>
             <!--Symbol preview cards -->
             <div class="symbolcards">
-                <div><img class="symbolcard" src="/Pictures/aboutpng/person.png" alt="person"></div>
-                <div><img class="symbolcard" src="/Pictures/aboutpng/benchy.png" alt="benchy bench"></div>
-                <div><img class="symbolcard" src="/Pictures/aboutpng/barbs.png" alt="barbees"></div>
+                <div><a href="#person"><img class="symbolcard" src="/Pictures/aboutpng/person.png" alt="person"></a></div>
+                <div><a href="#bench"><img class="symbolcard" src="/Pictures/aboutpng/benchy.png" alt="benchy bench"></a></div>
+                <div><a href="#barbie"><img class="symbolcard" src="/Pictures/aboutpng/barbs.png" alt="barbees"></a></div>
             </div>
             <!--Person-->
-            <div class="symbol">
+            <div  id="person" class="symbol">
                 <h3 class="bigtext">Person</h3>
                 <!--Small description-->
                 <div class="symcontainer">
@@ -241,29 +241,30 @@
                 </div>
             </div>
             <!--Bench-->
-            <div class="symbol">
+            <div id="bench" class="symbol">
                 <h3 class="bigtext">Bench</h3>
                 <!--Small description-->
                 <div class="symcontainer">
-                    <div class="symitem"><img src="/Pictures/aboutpng/benchy.png" alt="bench" width="250"></div>
                     <div class="symitem">
-                        <h4 class="symbolsmalld">colorful social spot</h4>
+                        <h4 class="symbolsmalld right">colorful social spot</h4>
                         <!--Description-->
-                        <p class="symboltext">If the world was perfect, absolutely everyone would own
+                        <p class="symboltext right">If the world was perfect, absolutely everyone would own
                             a rainbow bench! Unfortunately, it isn’t but
                             don’t you worry - we have one!</p>
 
-                        <p class="symboltext">There is no better place for a talk about life, smoking session or
+                        <p class="symboltext right">There is no better place for a talk about life, smoking session or
                             Instagram
                             photo - everything
                             in one.
                             Additionally, let’s admit it - it is so beautifully colourful!</p>
                     </div>
+                    <div class="symitem"><img src="/Pictures/aboutpng/benchy.png" alt="bench" width="250"></div>
+                    
                 </div>
             </div>
 
             <!--Barbie-->
-            <div class="symbol">
+            <div id="barbie" class="symbol">
                 <h3 class="bigtext">Barbie</h3>
                 <!--Small description-->
                 <div class="symcontainer">
