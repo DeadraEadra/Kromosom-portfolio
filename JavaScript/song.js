@@ -1,15 +1,20 @@
-var x = document.getElementById("myAudio"); 
+//THE MUSICAL BUTTON FROM THE TOILET
+
+//Assigning the name to audio file
+var x = document.getElementById("myAudio");
 
 myAudio.load()
 
-function playPause() { 
+//Plays or pauses the sound depending on whether it's paused or not
+function playPause() {
 
+  //If it's paused, play it
   if (myAudio.paused) {
     myAudio.play();
-    // document.getElementById('pause').src = "img/pause.svg";
-}
-else {
+  }
+
+  //Else (if it's playing), pause it
+  else {
     myAudio.pause();
-    // document.getElementById('pause').src = "img/play.svg";
-}
+  }
 } 

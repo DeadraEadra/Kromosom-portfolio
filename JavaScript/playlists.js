@@ -21,7 +21,7 @@ sunVinyl.onclick = function () {
     daySpotify.style.display = "none";
     // then hide it
 
-    document.body.style.backgroundImage = "url(/Pictures/backgrounds/desktop/playlist-extended_pc.png)";
+    document.body.style.backgroundImage = "url(/Pictures/backgrounds/desktop/playlist-small_pc.png)";
 
     // moonVinyl.classList.remove("margin-top-extended-bgk");
   }

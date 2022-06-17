@@ -308,21 +308,26 @@ main {
     .gallerylink {
         width: 60%;
     }
+
     .rmaboutus {
         font-size: 12px;
     }
+
     .title-special-offers {
         margin-top: 290px;
         margin-left: auto;
         margin-right: auto;
     }
+
     .concert-booking-card-home {
         margin-top: 15px;
         align-self: flex-end;
     }
+
     .email-card-about-us {
         margin-top: 15px;
     }
+
     .specialoffers-section {
         margin-top: 30vh;
     }

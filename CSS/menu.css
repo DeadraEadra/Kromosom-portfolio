@@ -41,6 +41,8 @@ html {
     width: 90%;
     margin-left: auto;
     margin-right: 10%;
+
+    
 }
 
 th {
@@ -182,11 +184,7 @@ td {
     justify-content: center;
     gap: 10vw;
 }
-/*placing of sun and moon nav items*/
 
-
-/*placing the sun and moon icons on top of the menu*/
-/*Background for 1st*/
 @media screen and (min-width:900px) {
     .cafe {
         background-image: url("/Pictures/backgrounds/desktop/menu1_pc.png") ;
@@ -222,7 +220,6 @@ td {
         transition: transform .2s;
         /* Animation */
     }
-
 }
 
 /*Background for mobile*/
@@ -239,7 +236,6 @@ td {
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 
     .sunlogo {
         display: block;
@@ -259,14 +255,13 @@ td {
     }
 
     .special-offers {
-        margin-top: 125px;
+        margin-top: 250px;
         font-size: 60px;
     }
 
     .coffeecard {
         width: 80%;
         padding: 10px 10px 30px 10px;
-      
     }
 
     .moonicon {
@@ -276,7 +271,7 @@ td {
         width:60px;
         height:auto;
         transition: transform .2s;
-        transform: scaleX(-1);
+        /* transform: scaleX(-1); */
         /* Animation */
     }
 
@@ -353,8 +348,11 @@ td {
 
     .fadol{
         text-align: right;
-        width: 100%;
-        
+        width: 100%;   
+    }
+
+    .align-left {
+        text-align: left;
     }
 
     .specialscontainer{
@@ -398,6 +396,7 @@ td {
         align-items: baseline;
         max-width: 60%;
         margin-right: auto;
+        margin-top: 450px;
         
     }
 
@@ -418,6 +417,10 @@ td {
 
     .moonicon:hover {
         transform: scale(1.5);
+    }
+
+    .fadol {
+        text-align: center;
     }
 
     .coffeecard {
