@@ -83,7 +83,7 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vh;
+  margin-top: 100px;
 
 }
 
@@ -248,9 +248,19 @@ li {
   padding-top: 10vh;
 }
 
+#thisisus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 750px;
+}
+
 #ourmission {
   position: relative;
-  margin-top: 1200px;
+  margin-top: 400px;
 }
 
 .missiontext {
@@ -275,7 +285,7 @@ li {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60vh;
+  margin-top: 650px;
   left: 0;
   right: 0;
   text-align: center;
@@ -314,6 +324,10 @@ li {
 
 .symbolcard:hover {
   transform: scale(1.05);
+}
+
+#person {
+  margin-top: 200px;
 }
 
 .bigtext {
@@ -373,7 +387,7 @@ li {
 }
 
 #person {
-  margin-top: 40vh;
+  margin-top: 500px;
 }
 
 .right {
@@ -434,7 +448,7 @@ button {
 
 /*Web responsivity*/
 
-#mobileface{
+#mobileface {
   display: none;
 }
 
@@ -462,7 +476,7 @@ button {
 
   #ourstory {
     width: 30%;
-    padding-top: 25vh;
+    padding-top: 150px;
     text-align: center;
     margin-left: 30%;
     margin-right: auto;
@@ -473,7 +487,7 @@ button {
     width: 170px;
     max-height: 120px;
     font-size: 26px;
-    text-align:left;
+    text-align: left;
   }
 
   .jajj {
@@ -486,16 +500,17 @@ button {
   }
 
   .storycontainer {
-    margin-top: 80vh;
+    margin-top: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .storychapter{
-    margin-top: 10vh;
-    margin-bottom: 50vh;
+  .storychapter {
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
+
   .larsimage {
     display: none;
   }
@@ -557,62 +572,98 @@ button {
   }
 
 
-#mobileface {
+  #mobileface {
 
-  display: block;
-  position: absolute;
-  top: 95vh;
-  z-index: -2;
-  width: 100%;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
+    display: block;
+    position: absolute;
+    top: 700px;
+    z-index: -2;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
 
-.push {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  .push {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-.storychapter {
-  margin-bottom: 300px;
-}
+  .storychapter {
+    margin-bottom: 300px;
+  }
 
-/*Our mission*/
-.card {
-  margin-left: 0;
-  margin-right: 0;
-}
+  /*Our mission*/
+  .card {
 
-.card-container{
-  width: 90%;
-}
-.missiontext {
-  width: 90%;
-}
+    width: 170px;
+    margin-left: 0;
+    margin-right: 0;
+  
+  }
 
-#ourmission {
-  margin-top: 300px;
-}
+  .cards-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    margin-top:50px;
+  }
+
+  .missiontext {
+    width: 90%;
+  }
+
+  #ourmission {
+    margin-top: 200px;
+  }
+
+  .cards{
+    width: 90%;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
 
-/*Symbols*/
+  /*Symbols*/
 
-.symbolcard {
-  width: 60px;
-}
+  .symbolstitle{
+    margin-top: 300px;
+  }
 
-.bigtext {
-  font-size: 100px;
-  width: 90%;
-}
+  .symbolsdescription{
+    width: 90%;
+  }
 
-.symcontainer {
-  width: 90%;
-  padding: 0;
-  margin: 0;
-}
+  .symbolcard {
+    width: 100px;
+  }
 
+  .bigtext {
+    font-size: 100px;
+    width: 90%;
+  }
+
+  .symcontainer {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #person{
+    margin-top: 250px;
+  }
+
+  .symcard{
+
+    width: 150px;
+  }
+
+  .p1{
+    font-size: 12px;
+  }
 }
