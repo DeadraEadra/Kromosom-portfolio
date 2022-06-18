@@ -218,7 +218,7 @@ li {
 
 .larsimage {
   position: absolute;
-  width: 90%;
+  width: 1300px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -337,6 +337,15 @@ li {
   color: #1F1F1F;
   overflow: hidden;
   z-index: -2;
+}
+
+.bigtextm{
+  display: none;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bolder;
+  font-size: 70px;
+  color: #1F1F1F;
+  overflow: hidden;
 }
 
 .symbolsmalld {
@@ -629,7 +638,7 @@ button {
   /*Symbols*/
 
   .symbolstitle{
-    margin-top: 300px;
+    margin-top: 200px;
   }
 
   .symbolsdescription{
@@ -638,6 +647,7 @@ button {
 
   .symbolcard {
     width: 100px;
+    margin-top: 50px;
   }
 
   .bigtext {
@@ -655,15 +665,71 @@ button {
   }
 
   #person{
-    margin-top: 250px;
+    margin-top: 100px;
   }
 
   .symcard{
-
-    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .p1{
     font-size: 12px;
+  }
+
+  .bigtext{
+    display: none;
+  }
+
+  .bigtextm{
+    display: block;
+    margin-top: 50px;
+  }
+
+  .symcontainer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+  .symbol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .symitem{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .benchy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .symboltext{
+    width: 80%;
+  }
+
+  .symbolsmalld{
+    padding: 5px;
+  }
+
+  .symitem{
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .symbolcard{
+
+    border-radius: 15px;
+    border: 2px solid #1f1f1f;
+
   }
 }
