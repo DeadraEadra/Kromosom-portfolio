@@ -4,7 +4,7 @@
   body {
     background-image: url(/Pictures/backgrounds/mobile/aboutus_mobile.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 10000px;
   }
 
   /* .onclick-aboutus{
@@ -26,10 +26,10 @@
   body {
     background-image: url(/Pictures/backgrounds/desktop/aboutus_pc.png);
     background-repeat: no-repeat;
-    background-size: 100% 9000px;
+    background-size: 100% 10000px;
   }
 
-  .first{
+  .first {
     background-image: url(/Pictures/aboutpng/aboutus_photo.png);
     background-repeat: no-repeat;
     background-size: 40% auto;
@@ -37,7 +37,7 @@
     height: 120vh;
   }
 
- 
+
 
 
   /* .heading-aboutus {
@@ -69,7 +69,7 @@
   padding-top: 0px;
   padding-bottom: 50px;
   text-align: center;
-  z-index: -7;
+  z-index: -2;
 }
 
 /*OUR STORY  - STYLES*/
@@ -83,8 +83,8 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40vh;
-  
+  margin-top: 10vh;
+
 }
 
 .concert-booking-card-home {
@@ -93,8 +93,7 @@
 
 .card {
   border: 2px solid #f4e7bf;
-  background-color: black;
-  opacity: 0.5;
+
   border-radius: 20px;
   padding: 20px;
   padding-top: 15px;
@@ -106,7 +105,7 @@
   transition: 0.3s;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
 }
 
@@ -158,7 +157,7 @@
 }
 
 #ourstory {
-  position: relative;
+  position: absolute;
   top: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -218,8 +217,8 @@ li {
 }
 
 .larsimage {
-  position:absolute;
-  width: 96%;
+  position: absolute;
+  width: 90%;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -227,11 +226,12 @@ li {
   left: 0;
   right: 0;
   text-align: center;
-  top: 140vh;
+  top: 120vh;
   z-index: -2;
 }
 
-#usimage{
+#usimage {
+
   width: 600px;
 }
 
@@ -250,7 +250,7 @@ li {
 
 #ourmission {
   position: relative;
-  margin-top: 180vh;
+  margin-top: 1200px;
 }
 
 .missiontext {
@@ -282,7 +282,7 @@ li {
 }
 
 .symbolsdescription {
-  position:relative;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0vh;
@@ -372,9 +372,10 @@ li {
   right: 0;
 }
 
-#person{
+#person {
   margin-top: 40vh;
 }
+
 .right {
 
   text-align: right;
@@ -433,123 +434,185 @@ button {
 
 /*Web responsivity*/
 
-/*@media only screen and (min-width: 1300px) and (max-width: 1600px) {
-
-  .symbolstitle {
-    position: relative;
-    margin-top: 53vw;
-
-  }
-
-  .symbolsdescription {
-    position: relative;
-    margin-top: 0px;
-
-
-  }
-
-  #ourmission {
-    margin-top: 3400px;
-  }
-
-  #person {
-
-    margin-top: 60vh;
-  }
+#mobileface{
+  display: none;
 }
 
-@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+@media only screen and (min-width: 900px) {
 
-  .symbolstitle {
-    margin-top: 70vh;
-  }
-
-  .symbolsdescription {
-    margin-top: 80vh;
-
-  }
-
-  #ourmission {
-
-    margin-top: 2800px;
-  }
-}
-
-@media only screen and (min-width: 900px) and (max-width: 1100px) {
-
-  #ourstory {
-    top: 20vh;
-  }
-
-  .symbolstitle {
-    margin-top: 60vh;
-  }
-
-  .symbolsdescription {
-    margin-top: 65vh;
-
-  }
-
-  #ourmission {
-    margin-top: 2500px;
-  }
-
-  .us {
-    padding-left: 110px;
-  }
-
-  .card {
+  .missiontext {
     width: 400px;
   }
-
-  .push {
-    margin-top: 50px;
-  }
-
-  .storychapter {
-    width: 300px;
-  }
-
-  .cards-container {
-    margin-top: 20px;
-  }
-
-  .symbolcard {
-    margin-top: 120vh;
-  }
-}*/
+}
 
 /* Phone*/
 @media only screen and (max-width: 900px) {
 
-  /*Our story*/
-    /*The main image*/
-    /*Flower navigation*/
-    #flower{
-      width: 100%;
-      padding: 0px;
-    }
-
-    #floweropen{
-      width: 100%;
-      padding: 0px;
-      
-    }
-
-    #flowerclosed{
-      width: 100%;
-      padding: 0px;
-    }
-#usimage{
-  width: 90%;
-
-}
-  /*Our mission*/
-
-  /*Symbols*/
-
-  .symbolcard{
-    width: 100px;
+  body {
+    padding: 0;
+    margin: 0;
+    border: 0;
   }
+
+  /*Our story*/
+
+  .musicbutton {
+    display: none;
+  }
+
+  #ourstory {
+    width: 30%;
+    padding-top: 25vh;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: auto;
+
+  }
+
+  h2 {
+    width: 170px;
+    max-height: 120px;
+    font-size: 26px;
+    text-align:left;
+  }
+
+  .jajj {
+
+    text-align: left;
+  }
+
+  .storytext {
+    font-size: 18px;
+  }
+
+  .storycontainer {
+    margin-top: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .storychapter{
+    margin-top: 10vh;
+    margin-bottom: 50vh;
+  }
+  .larsimage {
+    display: none;
+  }
+
+  /*The main image*/
+  /*Flower navigation*/
+  #flower {
+    margin-top: -80px;
+    width: 50%;
+    padding: 0px;
+  }
+
+  .flowerimage {
+    width: 150px;
+  }
+
+
+  #floweropen {
+    margin-top: -90px;
+    width: 100%;
+    padding: 0px;
+
+  }
+
+  #flowerclosed {
+    width: 100%;
+    padding: 0px;
+    margin-top: -160px;
+    padding-left: 20px;
+  }
+
+  #navlist {
+    margin-top: -90px;
+    left: 118px;
+  }
+
+  #usimage {
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+  }
+
+  #thisisus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 750px;
+  }
+
+  .us {
+
+    width: 100%;
+    text-align: center;
+  }
+
+
+#mobileface {
+
+  display: block;
+  position: absolute;
+  top: 95vh;
+  z-index: -2;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.push {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.storychapter {
+  margin-bottom: 300px;
+}
+
+/*Our mission*/
+.card {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card-container{
+  width: 90%;
+}
+.missiontext {
+  width: 90%;
+}
+
+#ourmission {
+  margin-top: 300px;
+}
+
+
+/*Symbols*/
+
+.symbolcard {
+  width: 60px;
+}
+
+.bigtext {
+  font-size: 100px;
+  width: 90%;
+}
+
+.symcontainer {
+  width: 90%;
+  padding: 0;
+  margin: 0;
+}
 
 }
