@@ -358,6 +358,7 @@ td {
     .p4{
         color:#1F1F1F;
     }
+
     .specbar{
         color:#f4e7bf;
         font-family: 'Space Grotesk', sans-serif;
@@ -382,8 +383,7 @@ td {
     }
 
     .specialscontainer{
-        display: block;
-              
+        display: block;    
     }
 
     .specialperson {
@@ -393,6 +393,16 @@ td {
     .partymode{
         display: none;
     }
+
+    /* .partymode-img {
+        display: none;
+    }
+
+    .partymode-text {
+        margin-top: -60px;
+        margin-left: 150px;
+        margin-bottom: 100px;
+    } */
 
 }
 
