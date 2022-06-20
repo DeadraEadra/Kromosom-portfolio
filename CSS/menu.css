@@ -209,13 +209,13 @@ td {
 
 @media screen and (min-width:900px) {
     .cafe {
-        background-image: url("/Pictures/backgrounds/desktop/menu1_pc.png") ;
+        background-image: url("/Pictures/backgrounds/desktop/menu1_pc_cut.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .bar {
-        background-image: url("/Pictures/backgrounds/desktop/menu2_pc.png") ;
+        background-image: url("/Pictures/backgrounds/desktop/menu2_pc_cut.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -410,7 +410,7 @@ td {
 @media screen and (min-width:900px) {
 
     .bar {
-        background-image: url("/Pictures/backgrounds/desktop/menu2_pc.png") ;
+        background-image: url("/Pictures/backgrounds/desktop/menu2_pc_cut.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -432,7 +432,7 @@ td {
         align-items: baseline;
         max-width: 60%;
         margin-right: auto;
-        margin-top: 500px;
+        margin-top: 10px;
         
     }
 
@@ -440,6 +440,8 @@ td {
         display: flex;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 13vh;
+
     }
 
 
@@ -452,7 +454,7 @@ td {
     }
 
     .moonicon:hover {
-        transform: scale(1.5);
+        transform: scale(1.1);
     }
 
     .fadol {
@@ -487,7 +489,7 @@ td {
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 100px;
+        padding-left: 3%;
         gap: 20px;
 
     }

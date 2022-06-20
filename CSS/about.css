@@ -7,6 +7,14 @@
     background-size: 100% 10000px;
   }
 
+    .first {
+    background-image: url(/Pictures/aboutpng/aboutus_photo.png);
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    background-position: center;
+    height: 120vh;
+  }
+
   /* .onclick-aboutus{
         display: none;
     }
@@ -23,12 +31,6 @@
     display: none;
   }
 
-  body {
-    background-image: url(/Pictures/backgrounds/desktop/aboutus_pc.png);
-    background-repeat: no-repeat;
-    background-size: 100% 10000px;
-  }
-
   .first {
     background-image: url(/Pictures/aboutpng/aboutus_photo.png);
     background-repeat: no-repeat;
@@ -36,6 +38,13 @@
     background-position: center;
     height: 120vh;
   }
+
+  body {
+    background-image: url(/Pictures/backgrounds/desktop/aboutus_pc.png);
+    background-repeat: no-repeat;
+    background-size: 100% 10000px;
+  }
+
 
 
 
@@ -735,14 +744,14 @@ button {
 }
 
 #face-path-pc {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
+  stroke-dasharray: 40;
+  stroke-dashoffset: 1;
   animation: dash 40s linear infinite;
   }
 
   @keyframes dash {
     from {
-      stroke-dashoffset: 3000;
+      stroke-dashoffset: 600;
     }
     to {
       stroke-dashoffset:0;
