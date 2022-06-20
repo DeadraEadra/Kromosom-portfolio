@@ -733,3 +733,18 @@ button {
 
   }
 }
+
+#face-path-pc {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 40s linear infinite;
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 3000;
+    }
+    to {
+      stroke-dashoffset:0;
+    }
+  }

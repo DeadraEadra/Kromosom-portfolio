@@ -1,4 +1,4 @@
-const path = document.getElementById('face-path-pc')
+/* const path = document.getElementById('face-path-pc')
 const pathLenght = path.getTotalLength( )
 
 path.style.strokeDasharray = pathLenght;
@@ -17,4 +17,7 @@ window.addEventListener("scroll", function () {
     // Draw in reverse
     path.style.strokeDashoffset = pathLenght - draw;
 
-})
+}) */
+
+var path = document.querySelector('#face-path-pc');
+var length = path.getTotalLength();
