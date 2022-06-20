@@ -29,9 +29,10 @@
 
 <body>
 
-  <!-- Animation -->
-  <!-- <div id="loader"></div>
-  <div id="content"> -->
+  <!-- GIF animation aka Loader -->
+  <div class="loader" id="loader">
+    <img src="/Pictures/animation-desktop-black-bg.gif" alt="Animation with the person and the heart popping out"/>
+  </div>
 
   <div class="navbar">
     <a href="/HTML/danish/home-danish.html"><img class="toplogo" alt="menuicon" src="/Pictures/logo_little.png" /></a>
@@ -75,8 +76,6 @@
   </nav>
 
 
-
-
   <main>
 
     <!-- Content -->
@@ -88,7 +87,6 @@
       </div>
     </div>
 
-    <!-- <div class="bg-content"> -->
     <!--Who are we-->
     <div class="whoarewe-section">
       <h1 class="whoarewe title">HVEM ER VI?</h1>
@@ -155,7 +153,6 @@
         <a href="HTML/menubar.html#coffeecard-bar"> <img class="cardz" src="/Pictures/beer_card.png" alt="main" /></a>
       </div>
     </div>
-    <!-- </div> -->
   </main>
 
   <!-- Footer -->
@@ -247,8 +244,6 @@
     </div>
   </footer>
   <!-- End of the FOOTER coding -->
-  <!-- </div> -->
-  <!-- End of animation tag -->
 
   <script>
     // --- BURGER MENU actions ---
@@ -261,28 +256,14 @@
       document.getElementById("myNav").style.height = "0%";
     }
 
-    // GIF ANIMATION
-    // var loader;
-    // function loadNow(opacity) {
-    // if (opacity <= 0) {
-    //   displayContent(); // if the opacity is lower than 0 then show the content
-    // } else {
-    //   loader.style.opacity = opacity;
-    //   window.setTimeout(function() {
-    //   loadNow(opacity - 1); //decrease the opacity of the loader 100% after 6 second cycle,
-    //   }, 6000); // after the web site’s content is available
-    // }
-    // }
 
-    // function displayContent() {
-    //   loader.style.display = 'none'; // hide the GIF after those 6 seconds
-    //   document.getElementById('content').style.display = 'block'; //display the page after GIF ended
-    // }
+    // Inspiration: https://codepen.io/Seke/pen/VyqwXb
+    // GIF Animation aka Loader
+    var loader = document.getElementById('loader'); // Declare the variable "Loader"
+    window.addEventListener('load', function(){ //when this window (index page) loaded, execute the function
+    loader.setAttribute("style","visibility:hidden"); // that hides the "loader" (GIF)
+    });
 
-    // document.addEventListener("DOMContentLoaded", function() {
-    //   loader = document.getElementById('loader'); // get the GIF
-    //   loadNow(1); //load it just one time
-    // });
   </script>
 
   <!-- Footer JS file linking -->
