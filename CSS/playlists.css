@@ -164,6 +164,11 @@ body {
 .night-btn{
     background-color: #1f1f1f;
 }
+
+.description-spotify {
+    text-align: left;
+}
+
     /* -------- MEDIA QUERIES -------- */
 @media screen and (max-width: 1000px) {
 
@@ -245,5 +250,9 @@ body {
 
     .night-btn {
         margin-bottom: 35vh;
+    }
+
+    .description-spotify {
+        text-align: center;
     }
 }
