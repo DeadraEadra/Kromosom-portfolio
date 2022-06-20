@@ -160,6 +160,8 @@ body {
         left: -30px;
         bottom: -2150px;
     }
+
+
 }
 
 /* Deletes button's default styling */
@@ -290,8 +292,13 @@ button {
         animation: none;
     }
 
-    /* Barbies easter egg */
+    .openinghours{
+
+        margin-top: 180px;
+    }
 }
+    /* Barbies easter egg */
+
 
 @media screen and (max-width:900px) {
     .day-cards {
@@ -304,5 +311,10 @@ button {
 
     .openinghours-danish, .location-header-danish {
         font-size: 55px;
+    }
+
+    .openinghours{
+
+        margin-top: 30px;
     }
 }
