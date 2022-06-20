@@ -228,7 +228,7 @@ li {
 
 .larsimage {
   position: absolute;
-  width: 90%;
+  width: 400px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -236,7 +236,21 @@ li {
   left: 0;
   right: 0;
   text-align: center;
-  top: 120vh;
+  top: 880px;
+  z-index: -2;
+}
+
+.larsimage-face{
+  position: absolute;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 1900px;
   z-index: -2;
 }
 
@@ -478,6 +492,50 @@ button {
   }
 }
 
+#face {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 1;
+  animation: dash 40s linear infinite;
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 600;
+    }
+    to {
+      stroke-dashoffset:0;
+    }
+  }
+
+#face-path-pc {
+    stroke-dasharray: 40;
+    stroke-dashoffset: 1;
+    animation: dash 40s linear infinite;
+    }
+  
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 600;
+      }
+      to {
+        stroke-dashoffset:0;
+      }
+    }
+
+#facepath{
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 0;
+  animation: dash1 50s linear;
+  }
+
+  @keyframes dash1 {
+    from {
+      stroke-dashoffset: 4000;
+    }
+    to {
+      stroke-dashoffset:20000;
+    }
+  }
 /* Phone*/
 @media only screen and (max-width: 900px) {
 
@@ -531,6 +589,10 @@ button {
   }
 
   .larsimage {
+    display: none;
+  }
+
+  .larsimage-face{
     display: none;
   }
 
@@ -742,19 +804,20 @@ button {
     border: 2px solid #1f1f1f;
 
   }
+
+  #face-path-pc {
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 0;
+    animation: dash 40s linear;
+    }
+  
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 4000;
+      }
+      to {
+        stroke-dashoffset:20000;
+      }
+    }
 }
 
-#face-path-pc {
-  stroke-dasharray: 40;
-  stroke-dashoffset: 1;
-  animation: dash 40s linear infinite;
-  }
-
-  @keyframes dash {
-    from {
-      stroke-dashoffset: 600;
-    }
-    to {
-      stroke-dashoffset:0;
-    }
-  }
