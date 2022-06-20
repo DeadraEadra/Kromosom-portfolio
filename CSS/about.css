@@ -1,18 +1,18 @@
 /*HOW IT WOULD LOOK*/
 /* Mobile view  */
 @media only screen and (max-width: 899px) {
+  .first {
+    background-image: url(/Pictures/aboutpng/rainbow_aboutus.png), url(/Pictures/aboutpng/aboutus_photo.png) ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 150% auto,60% auto;
+    background-position: center, center;
+    height: 160vh;
+  }
+
   body {
     background-image: url(/Pictures/backgrounds/mobile/aboutus_mobile.png);
     background-repeat: no-repeat;
     background-size: 100% 10000px;
-  }
-
-    .first {
-    background-image: url(/Pictures/aboutpng/aboutus_photo.png);
-    background-repeat: no-repeat;
-    background-size: 40% auto;
-    background-position: center;
-    height: 120vh;
   }
 
   /* .onclick-aboutus{
@@ -32,10 +32,10 @@
   }
 
   .first {
-    background-image: url(/Pictures/aboutpng/aboutus_photo.png);
-    background-repeat: no-repeat;
-    background-size: 40% auto;
-    background-position: center;
+    background-image: url(/Pictures/aboutpng/rainbow_aboutus.png), url(/Pictures/aboutpng/aboutus_photo.png) ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, 40% auto;
+    background-position: center, center;
     height: 120vh;
   }
 
@@ -227,7 +227,7 @@ li {
 
 .larsimage {
   position: absolute;
-  width: 1300px;
+  width: 90%;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -518,7 +518,7 @@ button {
   }
 
   .storycontainer {
-    margin-top: 700px;
+    margin-top: -50vh;
     display: flex;
     justify-content: center;
     align-items: center;
