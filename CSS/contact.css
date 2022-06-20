@@ -293,7 +293,6 @@ button {
     }
 
     .openinghours{
-
         margin-top: 180px;
     }
 }
@@ -309,12 +308,11 @@ button {
         justify-content: center;
     }
 
-    .openinghours-danish, .location-header-danish {
-        font-size: 55px;
+    .openinghours-mobile, .location-header-danish {
+        font-size: 50px;
     }
 
-    .openinghours{
-
+    .openinghours-contact{
         margin-top: 30px;
     }
 }
