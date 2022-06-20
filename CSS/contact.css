@@ -301,4 +301,8 @@ button {
         /* gap: 40px; */
         justify-content: center;
     }
+
+    .openinghours-danish, .location-header-danish {
+        font-size: 55px;
+    }
 }
