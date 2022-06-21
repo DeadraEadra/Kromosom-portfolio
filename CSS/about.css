@@ -2,9 +2,9 @@
 /* Mobile view  */
 @media only screen and (max-width: 899px) {
   .first {
-    background-image: url(/Pictures/aboutpng/lilrainbow_aboutus.svg), url(/Pictures/aboutpng/aboutus_photo.png) ;
+    background-image: url(/Pictures/aboutpng/lilrainbow_aboutus.svg), url(/Pictures/aboutpng/aboutus_photo.png);
     background-repeat: no-repeat, no-repeat;
-    background-size:  100% 100%, 60% auto;
+    background-size: 100% 100%, 60% auto;
     background-position: center, center;
     background-position-y: -10vh, 65vh;
     height: 160vh;
@@ -33,7 +33,7 @@
   }
 
   .first {
-    background-image: url(/Pictures/aboutpng/rainbow_aboutus.png), url(/Pictures/aboutpng/aboutus_photo.png) ;
+    background-image: url(/Pictures/aboutpng/rainbow_aboutus.png), url(/Pictures/aboutpng/aboutus_photo.png);
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 950px, 45% auto;
     background-position: center, center;
@@ -239,7 +239,7 @@ li {
   z-index: -2;
 }
 
-.larsimage-face{
+.larsimage-face {
   position: absolute;
   width: 300px;
   padding-left: 20px;
@@ -361,7 +361,7 @@ li {
   z-index: -2;
 }
 
-.bigtextm{
+.bigtextm {
   display: none;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: bolder;
@@ -430,19 +430,19 @@ li {
 
 /* Setting the button in place */
 .button-div {
-  width: 13vw;
-  height: 13vw;
+  width: 10vw;
+  height: 10vw;
   position: absolute;
-  top: 50vh;
-  right: 80px;
+  top: 495vh;
+  right: 200px;
   border-radius: 5px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.299);
   z-index: 0;
 }
 
 .button-box {
-  width: 13vw;
-  height: 13vw;
+  width: 10vw;
+  height: 10vw;
   z-index: 9;
   display: block;
   margin-left: auto;
@@ -452,16 +452,16 @@ li {
 .button-button {
   position: relative;
   z-index: 11;
-  top: -9.8vw;
-  left: 3.4vw;
-  width: 6vw;
-  height: 6vw;
+  top: -7.4vw;
+  left: 3vw;
+  width: 4vw;
+  height: 4vw;
   border-radius: 50%;
 }
 
 .button-img {
-  width: 6vw;
-  height: 6vw;
+  width: 4vw;
+  height: 4vw;
   border-radius: 50%;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.299);
 }
@@ -494,46 +494,50 @@ button {
   stroke-dasharray: 40;
   stroke-dashoffset: 1;
   animation: dash 40s linear infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 600;
   }
 
-  @keyframes dash {
-    from {
-      stroke-dashoffset: 600;
-    }
-    to {
-      stroke-dashoffset:0;
-    }
+  to {
+    stroke-dashoffset: 0;
   }
+}
 
 #face-path-pc {
-    stroke-dasharray: 40;
-    stroke-dashoffset: 1;
-    animation: dash 15s linear infinite;
-    }
-  
-    @keyframes dash {
-      from {
-        stroke-dashoffset: 600;
-      }
-      to {
-        stroke-dashoffset:0;
-      }
-    }
+  stroke-dasharray: 40;
+  stroke-dashoffset: 1;
+  animation: dash 15s linear infinite;
+}
 
-#facepath{
+@keyframes dash {
+  from {
+    stroke-dashoffset: 600;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#facepath {
   stroke-dasharray: 10000;
   stroke-dashoffset: 0;
   animation: dash1 15s linear infinite;
+}
+
+@keyframes dash1 {
+  from {
+    stroke-dashoffset: 4000;
   }
 
-  @keyframes dash1 {
-    from {
-      stroke-dashoffset: 4000;
-    }
-    to {
-      stroke-dashoffset:30000;
-    }
+  to {
+    stroke-dashoffset: 30000;
   }
+}
+
 /* Phone*/
 @media only screen and (max-width: 900px) {
 
@@ -591,7 +595,7 @@ button {
     display: none;
   }
 
-  .larsimage-face{
+  .larsimage-face {
     display: none;
   }
 
@@ -682,14 +686,14 @@ button {
     max-width: 300px;
     margin-left: 0;
     margin-right: 0;
-  
+
   }
 
   .cards-container {
     display: flex;
     justify-content: flex-start;
     width: 90%;
-    margin-top:50px;
+    margin-top: 50px;
   }
 
   .missiontext {
@@ -700,7 +704,7 @@ button {
     margin-top: 100px;
   }
 
-  .cards{
+  .cards {
     width: 90%;
     align-items: center;
     justify-content: flex-start;
@@ -709,11 +713,11 @@ button {
 
   /*Symbols*/
 
-  .symbolstitle{
+  .symbolstitle {
     margin-top: 450px;
   }
 
-  .symbolsdescription{
+  .symbolsdescription {
     width: 90%;
   }
 
@@ -736,71 +740,71 @@ button {
 
   }
 
-  #person{
+  #person {
     margin-top: 100px;
   }
 
-  .symcard{
+  .symcard {
     box-shadow: 5px 7px #fd910a;
     border-radius: 35px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .p1{
+  .p1 {
     font-size: 12px;
   }
 
-  .bigtext{
+  .bigtext {
     display: none;
   }
 
-  .bigtextm{
+  .bigtextm {
     display: block;
     margin-top: 50px;
   }
 
-  .symcontainer{
+  .symcontainer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-left: 20px;
   }
 
-  .symbol{
+  .symbol {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .symitem{
+  .symitem {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .benchy{
+  .benchy {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
   }
 
-  .symboltext{
+  .symboltext {
     width: 80%;
   }
 
-  .symbolsmalld{
+  .symbolsmalld {
     padding: 5px;
   }
 
-  .symitem{
+  .symitem {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
   }
 
-  .symbolcard{
+  .symbolcard {
 
     border-radius: 15px;
     border: 2px solid #1f1f1f;
@@ -811,19 +815,20 @@ button {
     stroke-dasharray: 4000;
     stroke-dashoffset: 0;
     animation: dash 40s linear;
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 4000;
     }
-  
-    @keyframes dash {
-      from {
-        stroke-dashoffset: 4000;
-      }
-      to {
-        stroke-dashoffset:20000;
-      }
+
+    to {
+      stroke-dashoffset: 20000;
     }
+  }
 }
 
-.footertitle{
+.footertitle {
   text-align: center;
   width: 100%;
 }
