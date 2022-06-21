@@ -57,6 +57,7 @@ main {
 .title-special-offers {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
     /* width: 100%; */
 }
 
@@ -143,7 +144,7 @@ main {
 
 /* Special offers section */
 .specialoffers-section {
-    margin-top: 30vh;
+    margin-top: 300px;
 }
 
 .specialperson {

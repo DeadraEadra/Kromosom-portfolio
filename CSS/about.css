@@ -211,7 +211,6 @@ li {
 .storycontainer {
   display: flex;
   position: relative;
-  top: -10vh;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -269,7 +268,7 @@ li {
 }
 
 .us {
-  padding-top: 10vh;
+  padding-top: 100px;
 }
 
 #thisisus {
@@ -279,12 +278,12 @@ li {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 750px;
+  margin-top: 770px;
 }
 
 #ourmission {
   position: relative;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
 .missiontext {
@@ -301,7 +300,6 @@ li {
 }
 
 .symbolssection {
-  min-height: 200vh;
   padding-bottom: 50px;
 }
 
@@ -336,7 +334,7 @@ li {
   box-shadow: 5px 7px #fd910a;
   border-radius: 30px;
   background-color: #1f1f1f;
-  margin-top: 15vh;
+  margin-top: 200px;
   transition: 0.3s;
 }
 
@@ -510,7 +508,7 @@ button {
 #face-path-pc {
     stroke-dasharray: 40;
     stroke-dashoffset: 1;
-    animation: dash 40s linear infinite;
+    animation: dash 15s linear infinite;
     }
   
     @keyframes dash {
@@ -523,9 +521,9 @@ button {
     }
 
 #facepath{
-  stroke-dasharray: 4000;
+  stroke-dasharray: 10000;
   stroke-dashoffset: 0;
-  animation: dash1 50s linear;
+  animation: dash1 15s linear infinite;
   }
 
   @keyframes dash1 {
@@ -533,7 +531,7 @@ button {
       stroke-dashoffset: 4000;
     }
     to {
-      stroke-dashoffset:20000;
+      stroke-dashoffset:30000;
     }
   }
 /* Phone*/
@@ -577,7 +575,7 @@ button {
   }
 
   .storycontainer {
-    margin-top: -20vh;
+    margin-top: -450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -610,7 +608,7 @@ button {
 
 
   #floweropen {
-    margin-top: -90px;
+    margin-top: -120px;
     width: 100%;
     padding: 0px;
 
@@ -624,7 +622,7 @@ button {
   }
 
   #navlist {
-    margin-top: -90px;
+    margin-top: -120px;
     left: 118px;
   }
 
@@ -643,7 +641,7 @@ button {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 520px;
+    margin-top: 620px;
   }
 
   .us {
@@ -679,7 +677,7 @@ button {
   /*Our mission*/
   .card {
 
-    width: 170px;
+    width: auto;
     margin-left: 0;
     margin-right: 0;
   
@@ -697,7 +695,7 @@ button {
   }
 
   #ourmission {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .cards{
@@ -710,7 +708,7 @@ button {
   /*Symbols*/
 
   .symbolstitle{
-    margin-top: 200px;
+    margin-top: 450px;
   }
 
   .symbolsdescription{
@@ -821,3 +819,7 @@ button {
     }
 }
 
+.footertitle{
+  text-align: center;
+  width: 100%;
+}
