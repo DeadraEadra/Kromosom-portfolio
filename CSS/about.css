@@ -5,7 +5,7 @@
   body {
     background-image: url(/Pictures/backgrounds/mobile/aboutus_mobile.png), url(/Pictures/aboutpng/lilrainbow_aboutus.svg), url(/Pictures/aboutpng/aboutus_photo.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 100% 10000px, 100% auto, 70% auto;
+    background-size: 100% 10000px, 100% auto, 300px auto;
     background-position: center, center, center;
     background-position-y: 18vh, 37vh, 65vh;
   }
