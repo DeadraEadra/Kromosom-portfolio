@@ -1,19 +1,13 @@
 /*HOW IT WOULD LOOK*/
 /* Mobile view  */
 @media only screen and (max-width: 899px) {
-  .first {
-    background-image: url(/Pictures/aboutpng/lilrainbow_aboutus.svg), url(/Pictures/aboutpng/aboutus_photo.png);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100% 100%, 60% auto;
-    background-position: center, center;
-    background-position-y: -10vh, 65vh;
-    height: 160vh;
-  }
 
   body {
-    background-image: url(/Pictures/backgrounds/mobile/aboutus_mobile.png);
-    background-repeat: no-repeat;
-    background-size: 100% 10000px;
+    background-image: url(/Pictures/backgrounds/mobile/aboutus_mobile.png), url(/Pictures/aboutpng/lilrainbow_aboutus.svg), url(/Pictures/aboutpng/aboutus_photo.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% 10000px, 100% auto, 70% auto;
+    background-position: center, center, center;
+    background-position-y: 18vh, 37vh, 65vh;
   }
 
   /* .onclick-aboutus{
@@ -31,21 +25,17 @@
   .error {
     display: none;
   }
-
-  .first {
-    background-image: url(/Pictures/aboutpng/rainbow_aboutus.png), url(/Pictures/aboutpng/aboutus_photo.png);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100% 950px, 45% auto;
-    background-position: center, center;
-    height: 120vh;
-  }
-
   body {
-    background-image: url(/Pictures/backgrounds/desktop/aboutus_pc.png);
-    background-repeat: no-repeat;
-    background-size: 100% 10000px;
+    background-image: url(/Pictures/aboutpng/rainbow_aboutus.png), url(/Pictures/backgrounds/desktop/aboutus_pc.png), url(/Pictures/aboutpng/aboutus_photo.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% 1600px, 100% 10000px, 700px auto;
+    background-position: center, center, center;
+    background-position-y: 18vh, 0vh, 35vh;
   }
 
+ 
+
+ 
 
 
 
@@ -223,11 +213,12 @@ li {
   margin-right: auto;
   width: 90%;
   max-width: 980px;
+  margin-top: 400px;
 }
 
 .larsimage {
   position: absolute;
-  width: 400px;
+  width: 360px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -249,7 +240,7 @@ li {
   left: 0;
   right: 0;
   text-align: center;
-  top: 1900px;
+  top: 1800px;
   z-index: -2;
 }
 
@@ -283,7 +274,7 @@ li {
 
 #ourmission {
   position: relative;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 .missiontext {
@@ -580,14 +571,14 @@ button {
   }
 
   .storycontainer {
-    margin-top: -450px;
+    margin-top: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .storychapter {
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: 100px;
   }
 
