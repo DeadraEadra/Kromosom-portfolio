@@ -107,7 +107,12 @@ body {
     width: 90%;
     overflow: hidden;
     background-color: #55CCD3;
-    box-shadow: #55CCD3 0px 0px 0px 3px, #009481 0px 0px 0px 6px, #F8A7AC 0px 0px 0px 9px, #EC5563 0px 0px 0px 12px, #FD910A 0px 0px 0px 15px, #000000 0px 0px 30px 0px;
+    box-shadow: #55CCD3 0px 0px 0px 3px, 
+    #009481 0px 0px 0px 6px, 
+    #F8A7AC 0px 0px 0px 9px, 
+    #EC5563 0px 0px 0px 12px, 
+    #FD910A 0px 0px 0px 15px, 
+    #000000 0px 0px 30px 0px;
 }
 
 .gmap_canvas {
