@@ -1,8 +1,9 @@
 //THE MUSICAL BUTTON FROM THE TOILET
 
-//Assigning the name to audio file
+//Assigning the name to audio file - declaring the variable x
 var x = document.getElementById("myAudio");
 
+// function that loads the element with the id "myAudio"
 myAudio.load()
 
 //Plays or pauses the sound depending on whether it's paused or not
