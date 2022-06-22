@@ -19,5 +19,12 @@ window.addEventListener("scroll", function () {
 
 }) */
 
+
+// Declare the variables for the path & length of the path
+
 var path = document.querySelector('#face-path-pc');
+// returns the first Element within the document that matches the specified selector
+// the selector is the id="face-path-pc"
+
 var length = path.getTotalLength();
+// returns the value for the total length of the path
