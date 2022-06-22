@@ -261,9 +261,13 @@
 
     // Inspiration: https://codepen.io/Seke/pen/VyqwXb
     // GIF Animation aka Loader
-    var loader = document.getElementById('loader'); // Declare the variable "Loader"
-    window.addEventListener('load', function(){ //when this window (index page) loaded, execute the function
-    loader.setAttribute("style","visibility:hidden"); // that hides the "loader" (GIF)
+
+    // Declare the variable "Loader"
+    var loader = document.getElementById('loader');
+    //when this window (index page) loaded, execute the function
+    window.addEventListener('load', function(){
+    // that hides the "loader" (GIF)
+    loader.setAttribute("style","visibility:hidden");
     });
 
   </script>
