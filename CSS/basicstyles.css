@@ -165,7 +165,7 @@ p{
   
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background-image: url("/pictures/scrollbar.jpg");
+	background-image: url("/Pictures/scrollbar.jpg");
 	background-size: contain;
 	background-repeat: repeat;
 	transition:ease-in 1s;
