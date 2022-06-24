@@ -25,17 +25,18 @@
   .error {
     display: none;
   }
+
   body {
     background-image: url(/Pictures/aboutpng/rainbow_aboutus.png), url(/Pictures/backgrounds/desktop/aboutus_pc.png), url(/Pictures/aboutpng/aboutus_photo.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 100% 1600px, 100% 10000px, 610px auto;
+    background-size: 100% 1600px, 100% 10000px, 700px auto;
     background-position: center, center, center;
     background-position-y: 18vh, 0vh, 35vh;
   }
 
- 
 
- 
+
+
 
 
 
