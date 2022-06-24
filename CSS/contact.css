@@ -58,7 +58,7 @@ body {
     text-align: center;
     gap: 30px;
     padding: 80px 20px 50px;
-    margin-top: 36vh;
+    margin-top: 40vh;
 }
 
 
@@ -237,6 +237,7 @@ button {
     .brain-container {
         /* margin-top: 60vh; */
         padding: 0px 20px 0px;
+       
     }
 
     .day-cards {
